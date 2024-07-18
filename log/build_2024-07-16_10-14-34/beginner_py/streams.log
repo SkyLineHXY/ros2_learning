@@ -1,0 +1,29 @@
+[0.302s] Invoking command in '/home/zzq/Desktop/ros2_ws/src/beginner_py': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/beginner_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/beginner_py build --build-base /home/zzq/Desktop/ros2_ws/build/beginner_py/build install --record /home/zzq/Desktop/ros2_ws/build/beginner_py/install.log --single-version-externally-managed install_data
+[0.416s] running egg_info
+[0.416s] writing ../../build/beginner_py/beginner_py.egg-info/PKG-INFO
+[0.416s] writing dependency_links to ../../build/beginner_py/beginner_py.egg-info/dependency_links.txt
+[0.416s] writing entry points to ../../build/beginner_py/beginner_py.egg-info/entry_points.txt
+[0.416s] writing requirements to ../../build/beginner_py/beginner_py.egg-info/requires.txt
+[0.416s] writing top-level names to ../../build/beginner_py/beginner_py.egg-info/top_level.txt
+[0.417s] reading manifest file '../../build/beginner_py/beginner_py.egg-info/SOURCES.txt'
+[0.417s] writing manifest file '../../build/beginner_py/beginner_py.egg-info/SOURCES.txt'
+[0.417s] running build
+[0.417s] running build_py
+[0.417s] copying beginner_py/sub.py -> /home/zzq/Desktop/ros2_ws/build/beginner_py/build/lib/beginner_py
+[0.417s] running install
+[0.417s] running install_lib
+[0.418s] copying /home/zzq/Desktop/ros2_ws/build/beginner_py/build/lib/beginner_py/sub.py -> /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py
+[0.418s] byte-compiling /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py/sub.py to sub.cpython-310.pyc
+[0.418s] running install_data
+[0.418s] running install_egg_info
+[0.418s]   File "/home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py/sub.py", line 20
+[0.418s]     """
+[0.418s]        ^
+[0.418s] SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xbb in position 5: invalid start byte
+[0.418s] 
+[0.419s] removing '/home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py-0.0.0-py3.10.egg-info' (and everything under it)
+[0.419s] Copying ../../build/beginner_py/beginner_py.egg-info to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py-0.0.0-py3.10.egg-info
+[0.419s] running install_scripts
+[0.430s] Installing sub script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+[0.430s] writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/beginner_py/install.log'
+[0.441s] Invoked command in '/home/zzq/Desktop/ros2_ws/src/beginner_py' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/beginner_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/beginner_py build --build-base /home/zzq/Desktop/ros2_ws/build/beginner_py/build install --record /home/zzq/Desktop/ros2_ws/build/beginner_py/install.log --single-version-externally-managed install_data

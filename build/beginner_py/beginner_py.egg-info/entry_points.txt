@@ -1,0 +1,6 @@
+[console_scripts]
+listener = beginner_py.sub:main
+talker = beginner_py.pub:main
+talkercv2 = beginner_py.pub_cv_image:main
+talkerpc2 = beginner_py.pub_pointcloud:main
+

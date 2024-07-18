@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/home/zzq/Desktop/ros2_ws/build/beginner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzq/Desktop/ros2_ws/build/beginner -- -j32 -l32
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target talker[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publish.cpp.o[0m
+[2.160s] [100%] [32m[1mLinking CXX executable talker[0m
+[2.283s] [100%] Built target talker
+[2.288s] Invoked command in '/home/zzq/Desktop/ros2_ws/build/beginner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzq/Desktop/ros2_ws/build/beginner -- -j32 -l32
+[2.306s] Invoking command in '/home/zzq/Desktop/ros2_ws/build/beginner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzq/Desktop/ros2_ws/build/beginner
+[2.312s] -- Install configuration: ""
+[2.312s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/ament_index/resource_index/package_run_dependencies/beginner
+[2.312s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/ament_index/resource_index/parent_prefix_path/beginner
+[2.312s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/ament_prefix_path.sh
+[2.312s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/ament_prefix_path.dsv
+[2.312s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/path.sh
+[2.312s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/path.dsv
+[2.313s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.bash
+[2.313s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.sh
+[2.313s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.zsh
+[2.313s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.dsv
+[2.313s] -- Installing: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/package.dsv
+[2.313s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/ament_index/resource_index/packages/beginner
+[2.313s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/cmake/beginnerConfig.cmake
+[2.313s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/cmake/beginnerConfig-version.cmake
+[2.313s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/package.xml
+[2.313s] -- Installing: /home/zzq/Desktop/ros2_ws/install/beginner/lib/beginner/talker
+[2.314s] -- Set runtime path of "/home/zzq/Desktop/ros2_ws/install/beginner/lib/beginner/talker" to ""
+[2.316s] Invoked command in '/home/zzq/Desktop/ros2_ws/build/beginner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzq/Desktop/ros2_ws/build/beginner

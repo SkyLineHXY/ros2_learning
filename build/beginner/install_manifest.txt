@@ -1,0 +1,16 @@
+/home/zzq/Desktop/ros2_ws/install/beginner/share/ament_index/resource_index/package_run_dependencies/beginner
+/home/zzq/Desktop/ros2_ws/install/beginner/share/ament_index/resource_index/parent_prefix_path/beginner
+/home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/ament_prefix_path.sh
+/home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/ament_prefix_path.dsv
+/home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/path.sh
+/home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/path.dsv
+/home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.bash
+/home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.sh
+/home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.zsh
+/home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.dsv
+/home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/package.dsv
+/home/zzq/Desktop/ros2_ws/install/beginner/share/ament_index/resource_index/packages/beginner
+/home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/cmake/beginnerConfig.cmake
+/home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/cmake/beginnerConfig-version.cmake
+/home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/package.xml
+/home/zzq/Desktop/ros2_ws/install/beginner/lib/beginner/talker

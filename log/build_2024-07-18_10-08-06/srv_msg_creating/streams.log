@@ -1,0 +1,48 @@
+[0.277s] Invoking command in '/home/zzq/Desktop/ros2_ws/build/srv_msg_creating': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py:/home/zzq/Desktop/ros2_ws/install/service_client_py:/home/zzq/Desktop/ros2_ws/install/beginner_py:/home/zzq/Desktop/GYH_ws/install/learning_urdf:/home/zzq/Desktop/GYH_ws/install/learning_topic:/home/zzq/Desktop/GYH_ws/install/learning_tf:/home/zzq/Desktop/GYH_ws/install/learning_service:/home/zzq/Desktop/GYH_ws/install/learning_qos:/home/zzq/Desktop/GYH_ws/install/learning_pkg_python:/home/zzq/Desktop/GYH_ws/install/learning_parameter:/home/zzq/Desktop/GYH_ws/install/learning_node:/home/zzq/Desktop/GYH_ws/install/learning_launch:/home/zzq/Desktop/GYH_ws/install/learning_action:/home/zzq/Desktop/GYH_ws/install/learning_gazebo:/home/zzq/Desktop/GYH_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/zzq/Desktop/ros2_ws/src/srv_msg_creating -DCMAKE_INSTALL_PREFIX=/home/zzq/Desktop/ros2_ws/install/srv_msg_creating
+[0.282s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.349s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.351s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.352s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.469s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[0.469s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.469s]   srv_msg_creating --arguments-file
+[0.469s]   /home/zzq/Desktop/ros2_ws/build/srv_msg_creating/rosidl_adapter__arguments__srv_msg_creating.json
+[0.469s]   --output-dir
+[0.469s]   /home/zzq/Desktop/ros2_ws/build/srv_msg_creating/rosidl_adapter/srv_msg_creating
+[0.469s]   --output-file
+[0.469s]   /home/zzq/Desktop/ros2_ws/build/srv_msg_creating/rosidl_adapter/srv_msg_creating.idls)
+[0.469s]   returned error code 1:
+[0.469s] 
+[0.469s]   Traceback (most recent call last):
+[0.469s] 
+[0.469s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[0.470s]       return _run_code(code, main_globals, None,
+[0.470s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[0.470s]       exec(code, run_globals)
+[0.470s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.470s]       sys.exit(main())
+[0.470s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[0.470s]       abs_idl_file = convert_to_idl(
+[0.470s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.470s]       return convert_msg_to_idl(
+[0.470s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.470s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.470s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 544, in parse_message_string
+[0.470s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[0.470s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 388, in __init__
+[0.470s]       self.base_type = BaseType(
+[0.470s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 205, in __init__
+[0.470s]       raise InvalidResourceName(
+[0.470s] 
+[0.470s]   rosidl_adapter.parser.InvalidResourceName: 'num' is an invalid message
+[0.470s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[0.470s] 
+[0.470s] Call Stack (most recent call first):
+[0.470s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.470s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.470s] 
+[0.470s] [0m
+[0.470s] -- Configuring incomplete, errors occurred!
+[0.471s] See also "/home/zzq/Desktop/ros2_ws/build/srv_msg_creating/CMakeFiles/CMakeOutput.log".
+[0.472s] Invoked command in '/home/zzq/Desktop/ros2_ws/build/srv_msg_creating' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py:/home/zzq/Desktop/ros2_ws/install/service_client_py:/home/zzq/Desktop/ros2_ws/install/beginner_py:/home/zzq/Desktop/GYH_ws/install/learning_urdf:/home/zzq/Desktop/GYH_ws/install/learning_topic:/home/zzq/Desktop/GYH_ws/install/learning_tf:/home/zzq/Desktop/GYH_ws/install/learning_service:/home/zzq/Desktop/GYH_ws/install/learning_qos:/home/zzq/Desktop/GYH_ws/install/learning_pkg_python:/home/zzq/Desktop/GYH_ws/install/learning_parameter:/home/zzq/Desktop/GYH_ws/install/learning_node:/home/zzq/Desktop/GYH_ws/install/learning_launch:/home/zzq/Desktop/GYH_ws/install/learning_action:/home/zzq/Desktop/GYH_ws/install/learning_gazebo:/home/zzq/Desktop/GYH_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake /home/zzq/Desktop/ros2_ws/src/srv_msg_creating -DCMAKE_INSTALL_PREFIX=/home/zzq/Desktop/ros2_ws/install/srv_msg_creating

@@ -1,0 +1,4 @@
+source;share/srv_msg_creating/environment/ament_prefix_path.sh
+source;share/srv_msg_creating/environment/library_path.sh
+source;share/srv_msg_creating/environment/path.sh
+source;share/srv_msg_creating/environment/pythonpath.sh

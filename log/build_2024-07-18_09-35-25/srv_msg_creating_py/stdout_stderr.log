@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info
+writing ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/dependency_links.txt
+writing entry points to ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/entry_points.txt
+writing requirements to ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/requires.txt
+writing top-level names to ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/top_level.txt
+writing manifest file '../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/SOURCES.txt'
+reading manifest file '../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zzq/Desktop/ros2_ws/build/srv_msg_creating_py/build
+creating /home/zzq/Desktop/ros2_ws/build/srv_msg_creating_py/build/lib
+creating /home/zzq/Desktop/ros2_ws/build/srv_msg_creating_py/build/lib/srv_msg_creating_py
+copying srv_msg_creating_py/__init__.py -> /home/zzq/Desktop/ros2_ws/build/srv_msg_creating_py/build/lib/srv_msg_creating_py
+running install
+running install_lib
+creating /home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py/lib/python3.10/site-packages/srv_msg_creating_py
+copying /home/zzq/Desktop/ros2_ws/build/srv_msg_creating_py/build/lib/srv_msg_creating_py/__init__.py -> /home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py/lib/python3.10/site-packages/srv_msg_creating_py
+byte-compiling /home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py/lib/python3.10/site-packages/srv_msg_creating_py/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py/share/ament_index
+creating /home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py/share/ament_index/resource_index
+creating /home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py/share/ament_index/resource_index/packages
+copying resource/srv_msg_creating_py -> /home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py/share/srv_msg_creating_py
+running install_egg_info
+Copying ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info to /home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py/lib/python3.10/site-packages/srv_msg_creating_py-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/srv_msg_creating_py/install.log'

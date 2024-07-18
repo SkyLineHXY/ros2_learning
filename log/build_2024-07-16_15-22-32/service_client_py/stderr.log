@@ -1,0 +1,5 @@
+  File "/home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py/client.py", line 11
+    self.get_logger().info('service not available, waiting again...')1
+                                                                     ^
+SyntaxError: invalid syntax
+

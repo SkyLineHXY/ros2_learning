@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/dependency_links.txt
+writing entry points to ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/entry_points.txt
+writing requirements to ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/requires.txt
+writing top-level names to ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/top_level.txt
+reading manifest file '../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py/share/srv_msg_creating_py
+running install_egg_info
+removing '/home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py/lib/python3.10/site-packages/srv_msg_creating_py-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/srv_msg_creating_py/srv_msg_creating_py.egg-info to /home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py/lib/python3.10/site-packages/srv_msg_creating_py-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/srv_msg_creating_py/install.log'

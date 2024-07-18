@@ -1,0 +1,2 @@
+Invoking command in '/home/zzq/Desktop/ros2_ws/build/beginner': /usr/bin/cmake --build /home/zzq/Desktop/ros2_ws/build/beginner -- -j32 -l32
+Invoked command in '/home/zzq/Desktop/ros2_ws/build/beginner' returned '2': /usr/bin/cmake --build /home/zzq/Desktop/ros2_ws/build/beginner -- -j32 -l32

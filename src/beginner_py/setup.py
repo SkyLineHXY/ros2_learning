@@ -23,6 +23,7 @@ setup(
             'talker = beginner_py.pub:main',
             'listener = beginner_py.sub:main',
             'talkerpc2 = beginner_py.pub_pointcloud:main',
+            'talkercv2 = beginner_py.pub_cv_image:main',
         ],
     },
 )

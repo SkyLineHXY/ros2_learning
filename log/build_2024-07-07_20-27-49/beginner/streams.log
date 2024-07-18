@@ -1,0 +1,45 @@
+[0.006s] Invoking command in '/home/zzq/Desktop/ros2_ws/build/beginner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzq/Desktop/ros2_ws/build/beginner -- -j32 -l32
+[0.017s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.074s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.089s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.090s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.093s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.098s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.105s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.131s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.132s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.187s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.260s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.280s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.321s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.321s] -- Configured cppcheck include dirs: 
+[0.321s] -- Configured cppcheck exclude dirs and/or files: 
+[0.321s] -- Added test 'lint_cmake' to check CMake code style
+[0.321s] -- Added test 'uncrustify' to check C / C++ code style
+[0.321s] -- Configured uncrustify additional arguments: 
+[0.322s] -- Added test 'xmllint' to check XML markup files
+[0.322s] -- Configuring done
+[0.326s] -- Generating done
+[0.327s] -- Build files have been written to: /home/zzq/Desktop/ros2_ws/build/beginner
+[0.343s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publish.cpp.o[0m
+[2.276s] [100%] [32m[1mLinking CXX executable talker[0m
+[2.369s] [100%] Built target talker
+[2.374s] Invoked command in '/home/zzq/Desktop/ros2_ws/build/beginner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/zzq/Desktop/ros2_ws/build/beginner -- -j32 -l32
+[2.390s] Invoking command in '/home/zzq/Desktop/ros2_ws/build/beginner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzq/Desktop/ros2_ws/build/beginner
+[2.393s] -- Install configuration: ""
+[2.393s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/ament_index/resource_index/package_run_dependencies/beginner
+[2.393s] -- Installing: /home/zzq/Desktop/ros2_ws/install/beginner/share/ament_index/resource_index/parent_prefix_path/beginner
+[2.393s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/ament_prefix_path.sh
+[2.393s] -- Installing: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/ament_prefix_path.dsv
+[2.393s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/path.sh
+[2.393s] -- Installing: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/path.dsv
+[2.393s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.bash
+[2.393s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.sh
+[2.393s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.zsh
+[2.393s] -- Installing: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.dsv
+[2.393s] -- Installing: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/package.dsv
+[2.393s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/ament_index/resource_index/packages/beginner
+[2.394s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/cmake/beginnerConfig.cmake
+[2.394s] -- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/cmake/beginnerConfig-version.cmake
+[2.394s] -- Installing: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/package.xml
+[2.394s] Invoked command in '/home/zzq/Desktop/ros2_ws/build/beginner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/zzq/Desktop/ros2_ws/build/beginner

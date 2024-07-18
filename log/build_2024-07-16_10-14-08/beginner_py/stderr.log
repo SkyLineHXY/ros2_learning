@@ -1,0 +1,5 @@
+  File "/home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py/sub.py", line 8
+    """
+       ^
+SyntaxError: (unicode error) 'utf-8' codec can't decode byte 0xb4 in position 1: invalid start byte
+

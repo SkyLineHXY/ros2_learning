@@ -1,0 +1,33 @@
+[0.435s] Invoking command in '/home/zzq/Desktop/ros2_ws/src/service_client_py': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/service_client_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_client_py build --build-base /home/zzq/Desktop/ros2_ws/build/service_client_py/build install --record /home/zzq/Desktop/ros2_ws/build/service_client_py/install.log --single-version-externally-managed install_data
+[0.553s] running egg_info
+[0.553s] creating ../../build/service_client_py/service_client_py.egg-info
+[0.553s] writing ../../build/service_client_py/service_client_py.egg-info/PKG-INFO
+[0.553s] writing dependency_links to ../../build/service_client_py/service_client_py.egg-info/dependency_links.txt
+[0.553s] writing entry points to ../../build/service_client_py/service_client_py.egg-info/entry_points.txt
+[0.553s] writing requirements to ../../build/service_client_py/service_client_py.egg-info/requires.txt
+[0.553s] writing top-level names to ../../build/service_client_py/service_client_py.egg-info/top_level.txt
+[0.553s] writing manifest file '../../build/service_client_py/service_client_py.egg-info/SOURCES.txt'
+[0.554s] reading manifest file '../../build/service_client_py/service_client_py.egg-info/SOURCES.txt'
+[0.554s] writing manifest file '../../build/service_client_py/service_client_py.egg-info/SOURCES.txt'
+[0.554s] running build
+[0.555s] running build_py
+[0.555s] creating /home/zzq/Desktop/ros2_ws/build/service_client_py/build
+[0.555s] creating /home/zzq/Desktop/ros2_ws/build/service_client_py/build/lib
+[0.555s] creating /home/zzq/Desktop/ros2_ws/build/service_client_py/build/lib/service_client_py
+[0.555s] copying service_client_py/__init__.py -> /home/zzq/Desktop/ros2_ws/build/service_client_py/build/lib/service_client_py
+[0.555s] running install
+[0.555s] running install_lib
+[0.555s] creating /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py
+[0.555s] copying /home/zzq/Desktop/ros2_ws/build/service_client_py/build/lib/service_client_py/__init__.py -> /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py
+[0.555s] byte-compiling /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py/__init__.py to __init__.cpython-310.pyc
+[0.555s] running install_data
+[0.555s] creating /home/zzq/Desktop/ros2_ws/install/service_client_py/share/ament_index
+[0.555s] creating /home/zzq/Desktop/ros2_ws/install/service_client_py/share/ament_index/resource_index
+[0.555s] creating /home/zzq/Desktop/ros2_ws/install/service_client_py/share/ament_index/resource_index/packages
+[0.555s] copying resource/service_client_py -> /home/zzq/Desktop/ros2_ws/install/service_client_py/share/ament_index/resource_index/packages
+[0.556s] copying package.xml -> /home/zzq/Desktop/ros2_ws/install/service_client_py/share/service_client_py
+[0.556s] running install_egg_info
+[0.556s] Copying ../../build/service_client_py/service_client_py.egg-info to /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py-0.0.0-py3.10.egg-info
+[0.557s] running install_scripts
+[0.567s] writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/service_client_py/install.log'
+[0.580s] Invoked command in '/home/zzq/Desktop/ros2_ws/src/service_client_py' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/service_client_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_client_py build --build-base /home/zzq/Desktop/ros2_ws/build/service_client_py/build install --record /home/zzq/Desktop/ros2_ws/build/service_client_py/install.log --single-version-externally-managed install_data

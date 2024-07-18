@@ -1,0 +1,18 @@
+[100%] Built target talker
+-- Install configuration: ""
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/ament_index/resource_index/package_run_dependencies/beginner
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/ament_index/resource_index/parent_prefix_path/beginner
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/path.sh
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/environment/path.dsv
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.bash
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.sh
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.zsh
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/local_setup.dsv
+-- Installing: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/package.dsv
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/ament_index/resource_index/packages/beginner
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/cmake/beginnerConfig.cmake
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/cmake/beginnerConfig-version.cmake
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/share/beginner/package.xml
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/beginner/lib/beginner/talker
