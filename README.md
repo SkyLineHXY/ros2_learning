@@ -15,7 +15,7 @@
 `$HOME/.clash/start_clash.sh`
 ### 0.2 Github
 ubuntu本地的access token:
-`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`
+
 ## 1.ROS2基础CLI指令
 **鱼香ROS**调用指令：
 ```bash
