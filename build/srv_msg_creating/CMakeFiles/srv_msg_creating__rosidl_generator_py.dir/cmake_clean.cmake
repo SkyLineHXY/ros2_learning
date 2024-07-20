@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/srv_msg_creating__rosidl_generator_py.dir/rosidl_generator_py/srv_msg_creating/action/_move_circle_s.c.o"
+  "CMakeFiles/srv_msg_creating__rosidl_generator_py.dir/rosidl_generator_py/srv_msg_creating/action/_move_circle_s.c.o.d"
   "CMakeFiles/srv_msg_creating__rosidl_generator_py.dir/rosidl_generator_py/srv_msg_creating/msg/_num_s.c.o"
   "CMakeFiles/srv_msg_creating__rosidl_generator_py.dir/rosidl_generator_py/srv_msg_creating/msg/_num_s.c.o.d"
   "CMakeFiles/srv_msg_creating__rosidl_generator_py.dir/rosidl_generator_py/srv_msg_creating/srv/_add_three_ints_s.c.o"

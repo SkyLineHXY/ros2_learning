@@ -111,6 +111,10 @@ angular:
 ```bash
 ros2 topic pub /turtle1/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 0.5, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.2}}" 
 ```
+#### 1.3.2 查询某话题的消息类型
+```bash
+    ros2 topic type <topic_name>
+```    
 ### 1.4 服务Service指令
 #### 1.4.1 创建服务指令
 运用ros2创建服务的ctl指令结构：
@@ -130,6 +134,11 @@ ros2 service call /spawn turtlesim/srv/Spawn "{x: 0.5, y: 0.5, theta: 0.0}"
 ```bash
 ros2 interface *
 ```
+### 1.6 action相关指令
+```bash
+ros2 action *
+```
+
 
 ## 2.基本ROS2代码结构
 ### 2.1 ROS2包结构
@@ -289,3 +298,67 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 )
 ```
 其中，Num.msg和AddThreeInts.srv为自定义消息和服务，命名要求**首字母大写**。
+
+* package.xml
+```sh
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+```
+### 2.4 Action动作
+![action_plot](images/action_plot.png)
+#### 2.4.1 action脚本(python)
+
+## 2.5 Launch文件
+ROS2下的launch.py文件最基础的配置如下：
+```python
+from launch import LaunchDescription
+from launch_ros.actions import Node
+def generate_launch_description():
+    return LaunchDescription([
+        Node(
+            package='beginner_py',
+            namespace='talker',
+            executable='talker',
+            output='screen'
+            ),
+        Node(
+            package='beginner_py',
+            namespace='listener',
+            executable='listener',
+            output='screen'
+            )
+            ])
+```
+其中，`package`为包名，`namespace`为自定义节点命名，`executable`为可执行文件名称。
+
+## 3 DDS
+### 3.1 DDS简介
+![DDS](images/DDS.png)
+DDS(Data Distribution Service，数据分发服务),2004年由对象管理组织Object Management Group（简称OMG）发布和维护，是一套专门为实时系统设计的数据分发/订阅标准。**DDS强调以数据为中心**，可以提供丰富的*QOS*服务质量策略。
+### 3.2 DDS组成
+#### 一.DDS Specification
+描述了以数据为中心的发布-订阅模型。该规范定义了API和通信语义（行为和服务质量），使消息从消息生产者有效地传递到匹配的消费者。
+#### 二.DDSI-RTPS
+描述了RTPS（Real Time Publish Subscribe Protocol）协议。该协议通过UDP等不可靠的传输，实现最大努力（Best-Effort）和可靠（reliable）的发布-订阅通信。RTPS是DDS实现的标准协议，它的目的和范围是确保基于不同DDS供应商的应用程序可以实现互操作。ｓ
+![DDS_databus](images/DDS_databus.png)
+
+
+### 其他问题
+
+#### 1.关于ros2下四元数与欧拉角互转问题
+ROS1中使用`from tf.transformations import quaternion_from_euler`导入`quaternion_from_euler()`即可调用，而ROS2中默认没有安装，需要单独`apt`安装:
+```sh
+sudo apt-get install ros-humble-tf-transformations
+```
+配置完后，在python下导入包:
+```python
+import tf_transformations
+# 将欧拉角转换为四元数（roll, pitch, yaw）
+q = tf_transformations.quaternion_from_euler(roll, pitch, yaw)
+# 将四元素转换成欧拉角 
+euler = tf_transformations.euler_from_quaternion([x, y, z, w])
+```
+## 相关参考blog
+> [Ubuntu22.04 CH340系列串口驱动（没有ttyUSB）问题解决方案](https://blog.51cto.com/u_15473553/5437058)
+>

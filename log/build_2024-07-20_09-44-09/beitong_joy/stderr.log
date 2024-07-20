@@ -1,0 +1,5 @@
+  File "/home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy/joy_subscribe.py", line 20
+    self.get_logger().info(f'msg.ax[0]: {msg.axes[0]}\n msg.ax[1]:{msg.axes[1]}\n 
+                           ^
+SyntaxError: unterminated string literal (detected at line 20)
+

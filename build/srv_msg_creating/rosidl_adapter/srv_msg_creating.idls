@@ -1,2 +1,3 @@
 /home/zzq/Desktop/ros2_ws/build/srv_msg_creating/rosidl_adapter/srv_msg_creating:msg/Num.idl
 /home/zzq/Desktop/ros2_ws/build/srv_msg_creating/rosidl_adapter/srv_msg_creating:srv/AddThreeInts.idl
+/home/zzq/Desktop/ros2_ws/build/srv_msg_creating/rosidl_adapter/srv_msg_creating:action/MoveCircle.idl

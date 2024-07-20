@@ -1,0 +1,34 @@
+running egg_info
+creating ../../build/Action_turtle/Action_turtle.egg-info
+writing ../../build/Action_turtle/Action_turtle.egg-info/PKG-INFO
+writing dependency_links to ../../build/Action_turtle/Action_turtle.egg-info/dependency_links.txt
+writing entry points to ../../build/Action_turtle/Action_turtle.egg-info/entry_points.txt
+writing requirements to ../../build/Action_turtle/Action_turtle.egg-info/requires.txt
+writing top-level names to ../../build/Action_turtle/Action_turtle.egg-info/top_level.txt
+writing manifest file '../../build/Action_turtle/Action_turtle.egg-info/SOURCES.txt'
+reading manifest file '../../build/Action_turtle/Action_turtle.egg-info/SOURCES.txt'
+writing manifest file '../../build/Action_turtle/Action_turtle.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/zzq/Desktop/ros2_ws/build/Action_turtle/build
+creating /home/zzq/Desktop/ros2_ws/build/Action_turtle/build/lib
+creating /home/zzq/Desktop/ros2_ws/build/Action_turtle/build/lib/Action_turtle
+copying Action_turtle/Action.py -> /home/zzq/Desktop/ros2_ws/build/Action_turtle/build/lib/Action_turtle
+copying Action_turtle/__init__.py -> /home/zzq/Desktop/ros2_ws/build/Action_turtle/build/lib/Action_turtle
+running install
+running install_lib
+creating /home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/python3.10/site-packages/Action_turtle
+copying /home/zzq/Desktop/ros2_ws/build/Action_turtle/build/lib/Action_turtle/Action.py -> /home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/python3.10/site-packages/Action_turtle
+copying /home/zzq/Desktop/ros2_ws/build/Action_turtle/build/lib/Action_turtle/__init__.py -> /home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/python3.10/site-packages/Action_turtle
+byte-compiling /home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/python3.10/site-packages/Action_turtle/Action.py to Action.cpython-310.pyc
+byte-compiling /home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/python3.10/site-packages/Action_turtle/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/zzq/Desktop/ros2_ws/install/Action_turtle/share/ament_index
+creating /home/zzq/Desktop/ros2_ws/install/Action_turtle/share/ament_index/resource_index
+creating /home/zzq/Desktop/ros2_ws/install/Action_turtle/share/ament_index/resource_index/packages
+copying resource/Action_turtle -> /home/zzq/Desktop/ros2_ws/install/Action_turtle/share/ament_index/resource_index/packages
+copying package.xml -> /home/zzq/Desktop/ros2_ws/install/Action_turtle/share/Action_turtle
+running install_egg_info
+Copying ../../build/Action_turtle/Action_turtle.egg-info to /home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/python3.10/site-packages/Action_turtle-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/Action_turtle/install.log'

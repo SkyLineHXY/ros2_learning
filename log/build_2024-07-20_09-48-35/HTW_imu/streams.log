@@ -1,0 +1,23 @@
+[0.932s] Invoking command in '/home/zzq/Desktop/ros2_ws/src/HWT_imu': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/HTW_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/HTW_imu build --build-base /home/zzq/Desktop/ros2_ws/build/HTW_imu/build install --record /home/zzq/Desktop/ros2_ws/build/HTW_imu/install.log --single-version-externally-managed install_data
+[1.083s] running egg_info
+[1.083s] writing ../../build/HTW_imu/HTW_imu.egg-info/PKG-INFO
+[1.083s] writing dependency_links to ../../build/HTW_imu/HTW_imu.egg-info/dependency_links.txt
+[1.083s] writing entry points to ../../build/HTW_imu/HTW_imu.egg-info/entry_points.txt
+[1.084s] writing requirements to ../../build/HTW_imu/HTW_imu.egg-info/requires.txt
+[1.084s] writing top-level names to ../../build/HTW_imu/HTW_imu.egg-info/top_level.txt
+[1.084s] reading manifest file '../../build/HTW_imu/HTW_imu.egg-info/SOURCES.txt'
+[1.085s] writing manifest file '../../build/HTW_imu/HTW_imu.egg-info/SOURCES.txt'
+[1.085s] running build
+[1.085s] running build_py
+[1.085s] running install
+[1.085s] running install_lib
+[1.086s] running install_data
+[1.086s] running install_egg_info
+[1.087s] removing '/home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HTW_imu-0.0.0-py3.10.egg-info' (and everything under it)
+[1.087s] Copying ../../build/HTW_imu/HTW_imu.egg-info to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HTW_imu-0.0.0-py3.10.egg-info
+[1.087s] running install_scripts
+[1.100s] Installing get_imu_rpy script to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/HTW_imu
+[1.100s] Installing wit_imu_ctrl script to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/HTW_imu
+[1.100s] Installing wit_modbus_ros script to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/HTW_imu
+[1.100s] writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/HTW_imu/install.log'
+[1.119s] Invoked command in '/home/zzq/Desktop/ros2_ws/src/HWT_imu' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/HTW_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/HTW_imu build --build-base /home/zzq/Desktop/ros2_ws/build/HTW_imu/build install --record /home/zzq/Desktop/ros2_ws/build/HTW_imu/install.log --single-version-externally-managed install_data

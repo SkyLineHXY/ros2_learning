@@ -1,5 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/srv_msg_creating__cpp"
+  "rosidl_generator_cpp/srv_msg_creating/action/detail/move_circle__builder.hpp"
+  "rosidl_generator_cpp/srv_msg_creating/action/detail/move_circle__struct.hpp"
+  "rosidl_generator_cpp/srv_msg_creating/action/detail/move_circle__traits.hpp"
+  "rosidl_generator_cpp/srv_msg_creating/action/move_circle.hpp"
   "rosidl_generator_cpp/srv_msg_creating/msg/detail/num__builder.hpp"
   "rosidl_generator_cpp/srv_msg_creating/msg/detail/num__struct.hpp"
   "rosidl_generator_cpp/srv_msg_creating/msg/detail/num__traits.hpp"

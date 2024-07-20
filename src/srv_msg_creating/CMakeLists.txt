@@ -12,6 +12,7 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Num.msg"
   "srv/AddThreeInts.srv"
+  "action/MoveCircle.action"
   # DEPENDENCIES geometry_msgs 
 )
 # uncomment the following section in order to fill in

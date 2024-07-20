@@ -1,0 +1,24 @@
+[0.948s] Invoking command in '/home/zzq/Desktop/ros2_ws/src/beitong_joy': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/beitong_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/beitong_joy build --build-base /home/zzq/Desktop/ros2_ws/build/beitong_joy/build install --record /home/zzq/Desktop/ros2_ws/build/beitong_joy/install.log --single-version-externally-managed install_data
+[1.099s] running egg_info
+[1.099s] writing ../../build/beitong_joy/beitong_joy.egg-info/PKG-INFO
+[1.099s] writing dependency_links to ../../build/beitong_joy/beitong_joy.egg-info/dependency_links.txt
+[1.100s] writing entry points to ../../build/beitong_joy/beitong_joy.egg-info/entry_points.txt
+[1.100s] writing requirements to ../../build/beitong_joy/beitong_joy.egg-info/requires.txt
+[1.100s] writing top-level names to ../../build/beitong_joy/beitong_joy.egg-info/top_level.txt
+[1.100s] reading manifest file '../../build/beitong_joy/beitong_joy.egg-info/SOURCES.txt'
+[1.101s] writing manifest file '../../build/beitong_joy/beitong_joy.egg-info/SOURCES.txt'
+[1.101s] running build
+[1.101s] running build_py
+[1.101s] copying beitong_joy/joy_subscribe.py -> /home/zzq/Desktop/ros2_ws/build/beitong_joy/build/lib/beitong_joy
+[1.101s] running install
+[1.101s] running install_lib
+[1.102s] copying /home/zzq/Desktop/ros2_ws/build/beitong_joy/build/lib/beitong_joy/joy_subscribe.py -> /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy
+[1.102s] byte-compiling /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy/joy_subscribe.py to joy_subscribe.cpython-310.pyc
+[1.102s] running install_data
+[1.102s] running install_egg_info
+[1.104s] removing '/home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy-0.0.0-py3.10.egg-info' (and everything under it)
+[1.104s] Copying ../../build/beitong_joy/beitong_joy.egg-info to /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy-0.0.0-py3.10.egg-info
+[1.104s] running install_scripts
+[1.119s] Installing joy_sub_demo script to /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/beitong_joy
+[1.119s] writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/beitong_joy/install.log'
+[1.130s] Invoked command in '/home/zzq/Desktop/ros2_ws/src/beitong_joy' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/beitong_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/beitong_joy build --build-base /home/zzq/Desktop/ros2_ws/build/beitong_joy/build install --record /home/zzq/Desktop/ros2_ws/build/beitong_joy/install.log --single-version-externally-managed install_data

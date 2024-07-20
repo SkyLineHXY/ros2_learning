@@ -1,0 +1,24 @@
+[0.917s] Invoking command in '/home/zzq/Desktop/ros2_ws/src/beginner_py': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/beginner_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/beginner_py build --build-base /home/zzq/Desktop/ros2_ws/build/beginner_py/build install --record /home/zzq/Desktop/ros2_ws/build/beginner_py/install.log --single-version-externally-managed install_data
+[1.070s] running egg_info
+[1.070s] writing ../../build/beginner_py/beginner_py.egg-info/PKG-INFO
+[1.070s] writing dependency_links to ../../build/beginner_py/beginner_py.egg-info/dependency_links.txt
+[1.070s] writing entry points to ../../build/beginner_py/beginner_py.egg-info/entry_points.txt
+[1.070s] writing requirements to ../../build/beginner_py/beginner_py.egg-info/requires.txt
+[1.070s] writing top-level names to ../../build/beginner_py/beginner_py.egg-info/top_level.txt
+[1.071s] reading manifest file '../../build/beginner_py/beginner_py.egg-info/SOURCES.txt'
+[1.072s] writing manifest file '../../build/beginner_py/beginner_py.egg-info/SOURCES.txt'
+[1.072s] running build
+[1.072s] running build_py
+[1.072s] running install
+[1.072s] running install_lib
+[1.073s] running install_data
+[1.073s] running install_egg_info
+[1.074s] removing '/home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py-0.0.0-py3.10.egg-info' (and everything under it)
+[1.074s] Copying ../../build/beginner_py/beginner_py.egg-info to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py-0.0.0-py3.10.egg-info
+[1.074s] running install_scripts
+[1.087s] Installing listener script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+[1.087s] Installing talker script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+[1.087s] Installing talkercv2 script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+[1.087s] Installing talkerpc2 script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+[1.087s] writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/beginner_py/install.log'
+[1.110s] Invoked command in '/home/zzq/Desktop/ros2_ws/src/beginner_py' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/beginner_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/beginner_py build --build-base /home/zzq/Desktop/ros2_ws/build/beginner_py/build install --record /home/zzq/Desktop/ros2_ws/build/beginner_py/install.log --single-version-externally-managed install_data

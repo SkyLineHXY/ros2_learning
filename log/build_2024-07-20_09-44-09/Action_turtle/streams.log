@@ -1,0 +1,22 @@
+[0.956s] Invoking command in '/home/zzq/Desktop/ros2_ws/src/Action_turtle': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/Action_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Action_turtle build --build-base /home/zzq/Desktop/ros2_ws/build/Action_turtle/build install --record /home/zzq/Desktop/ros2_ws/build/Action_turtle/install.log --single-version-externally-managed install_data
+[1.104s] running egg_info
+[1.104s] writing ../../build/Action_turtle/Action_turtle.egg-info/PKG-INFO
+[1.104s] writing dependency_links to ../../build/Action_turtle/Action_turtle.egg-info/dependency_links.txt
+[1.104s] writing entry points to ../../build/Action_turtle/Action_turtle.egg-info/entry_points.txt
+[1.104s] writing requirements to ../../build/Action_turtle/Action_turtle.egg-info/requires.txt
+[1.104s] writing top-level names to ../../build/Action_turtle/Action_turtle.egg-info/top_level.txt
+[1.105s] reading manifest file '../../build/Action_turtle/Action_turtle.egg-info/SOURCES.txt'
+[1.106s] writing manifest file '../../build/Action_turtle/Action_turtle.egg-info/SOURCES.txt'
+[1.106s] running build
+[1.106s] running build_py
+[1.106s] running install
+[1.106s] running install_lib
+[1.107s] running install_data
+[1.107s] running install_egg_info
+[1.108s] removing '/home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/python3.10/site-packages/Action_turtle-0.0.0-py3.10.egg-info' (and everything under it)
+[1.108s] Copying ../../build/Action_turtle/Action_turtle.egg-info to /home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/python3.10/site-packages/Action_turtle-0.0.0-py3.10.egg-info
+[1.109s] running install_scripts
+[1.121s] Installing Action_turtle_client script to /home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/Action_turtle
+[1.121s] Installing Action_turtle_server script to /home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/Action_turtle
+[1.121s] writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/Action_turtle/install.log'
+[1.136s] Invoked command in '/home/zzq/Desktop/ros2_ws/src/Action_turtle' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/Action_turtle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/Action_turtle build --build-base /home/zzq/Desktop/ros2_ws/build/Action_turtle/build install --record /home/zzq/Desktop/ros2_ws/build/Action_turtle/install.log --single-version-externally-managed install_data

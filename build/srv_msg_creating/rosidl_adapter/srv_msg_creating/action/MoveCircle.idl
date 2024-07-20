@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from srv_msg_creating/action/MoveCircle.action
+// generated code does not contain a copyright notice
+
+
+module srv_msg_creating {
+  module action {
+    struct MoveCircle_Goal {
+      boolean enable;
+    };
+    struct MoveCircle_Result {
+      boolean finish;
+    };
+    struct MoveCircle_Feedback {
+      int32 state;
+    };
+  };
+};

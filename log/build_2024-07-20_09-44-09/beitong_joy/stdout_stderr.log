@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/beitong_joy/beitong_joy.egg-info/PKG-INFO
+writing dependency_links to ../../build/beitong_joy/beitong_joy.egg-info/dependency_links.txt
+writing entry points to ../../build/beitong_joy/beitong_joy.egg-info/entry_points.txt
+writing requirements to ../../build/beitong_joy/beitong_joy.egg-info/requires.txt
+writing top-level names to ../../build/beitong_joy/beitong_joy.egg-info/top_level.txt
+reading manifest file '../../build/beitong_joy/beitong_joy.egg-info/SOURCES.txt'
+writing manifest file '../../build/beitong_joy/beitong_joy.egg-info/SOURCES.txt'
+running build
+running build_py
+copying beitong_joy/joy_subscribe.py -> /home/zzq/Desktop/ros2_ws/build/beitong_joy/build/lib/beitong_joy
+running install
+running install_lib
+copying /home/zzq/Desktop/ros2_ws/build/beitong_joy/build/lib/beitong_joy/joy_subscribe.py -> /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy
+byte-compiling /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy/joy_subscribe.py to joy_subscribe.cpython-310.pyc
+  File "/home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy/joy_subscribe.py", line 20
+    self.get_logger().info(f'msg.ax[0]: {msg.axes[0]}\n msg.ax[1]:{msg.axes[1]}\n 
+                           ^
+SyntaxError: unterminated string literal (detected at line 20)
+
+running install_data
+running install_egg_info
+removing '/home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/beitong_joy/beitong_joy.egg-info to /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_sub_demo script to /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/beitong_joy
+writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/beitong_joy/install.log'

@@ -1,0 +1,3 @@
+[console_scripts]
+joy_sub_demo = beitong_joy.joy_subscribe:main
+

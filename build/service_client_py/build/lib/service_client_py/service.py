@@ -9,9 +9,8 @@ class add_Service(Node):
         self.service=self.create_service(AddThreeInts, 'add', self.add_callback)
     def add_callback(self,request, response):
         response.sum = request.a + request.b + request.c
-
         return response
-        
+         
 def main(args=None):
     rclpy.init(args=args)
     node = add_Service()

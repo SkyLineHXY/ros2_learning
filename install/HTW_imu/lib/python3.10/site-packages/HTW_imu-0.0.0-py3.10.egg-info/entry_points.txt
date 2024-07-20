@@ -1,0 +1,5 @@
+[console_scripts]
+get_imu_rpy = HWT_imu.get_imu_rpy:main
+wit_imu_ctrl = HWT_imu.wit_imu_ctrl:main
+wit_modbus_ros = HWT_imu.wit_modbus_ros:main
+
