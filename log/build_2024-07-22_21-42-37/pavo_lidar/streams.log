@@ -1,0 +1,40 @@
+[0.005s] Invoking command in '/home/zzq/Desktop/ros2_ws/build/pavo_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py:/home/zzq/Desktop/ros2_ws/install/service_client_py:/home/zzq/Desktop/ros2_ws/install/beitong_joy:/home/zzq/Desktop/ros2_ws/install/beginner_py:/home/zzq/Desktop/ros2_ws/install/beginner:/home/zzq/Desktop/ros2_ws/install/HTW_imu:/home/zzq/Desktop/ros2_ws/install/Action_turtle:/home/zzq/Desktop/GYH_ws/install/learning_urdf:/home/zzq/Desktop/GYH_ws/install/learning_topic:/home/zzq/Desktop/GYH_ws/install/learning_tf:/home/zzq/Desktop/GYH_ws/install/learning_service:/home/zzq/Desktop/GYH_ws/install/learning_qos:/home/zzq/Desktop/GYH_ws/install/learning_pkg_python:/home/zzq/Desktop/GYH_ws/install/learning_parameter:/home/zzq/Desktop/GYH_ws/install/learning_node:/home/zzq/Desktop/GYH_ws/install/learning_launch:/home/zzq/Desktop/GYH_ws/install/learning_action:/home/zzq/Desktop/GYH_ws/install/learning_gazebo:/home/zzq/Desktop/GYH_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/zzq/Desktop/ros2_ws/build/pavo_lidar -- -j32 -l32
+[0.030s] [35m[1mConsolidate compiler generated dependencies of target pavo_pcd_pub[0m
+[0.050s] [ 20%] [32mBuilding CXX object CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o[0m
+[1.609s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:114:55:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[1.609s]   114 |         void get_param(const std::string &param_name, [01;35m[Kauto[m[K &param_var)
+[1.609s]       |                                                       [01;35m[K^~~~[m[K
+[1.615s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:[m[K In constructor ‘[01m[KPC_Pub_node::PC_Pub_node()[m[K’:
+[1.615s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:48:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::endl[m[K’?
+[1.615s]    48 |         std::cout<<this->lidar_ip<<[01;31m[Kendl[m[K;
+[1.615s]       |                                    [01;31m[K^~~~[m[K
+[1.615s]       |                                    [32m[Kstd::endl[m[K
+[1.615s] In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[1.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:22[m[K,
+[1.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.615s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.615s]                  from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:1[m[K:
+[1.615s] [01m[K/usr/include/c++/11/ostream:684:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ declared here
+[1.615s]   684 |     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+[1.615s]       |     [01;36m[K^~~~[m[K
+[1.629s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.629s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.629s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.629s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.629s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.630s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.630s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.630s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.630s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.630s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.630s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.630s]                  from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:1[m[K:
+[1.630s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:[m[K In member function ‘[01m[Kvoid PC_Pub_node::timer_callback()[m[K’:
+[1.630s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:158:94:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_v[m[K’ was not declared in this scope
+[1.630s]   158 |             RCLCPP_INFO_THROTTLE(this->get_logger(), sys_time, 2000, "Publishing twist: %f", [01;31m[Kmsg_v[m[K.linear.x);
+[1.630s]       |                                                                                              [01;31m[K^~~~~[m[K
+[2.110s] gmake[2]: *** [CMakeFiles/pavo_pcd_pub.dir/build.make:76：CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o] 错误 1
+[2.110s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pavo_pcd_pub.dir/all] 错误 2
+[2.111s] gmake: *** [Makefile:146：all] 错误 2
+[2.113s] Invoked command in '/home/zzq/Desktop/ros2_ws/build/pavo_lidar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py:/home/zzq/Desktop/ros2_ws/install/service_client_py:/home/zzq/Desktop/ros2_ws/install/beitong_joy:/home/zzq/Desktop/ros2_ws/install/beginner_py:/home/zzq/Desktop/ros2_ws/install/beginner:/home/zzq/Desktop/ros2_ws/install/HTW_imu:/home/zzq/Desktop/ros2_ws/install/Action_turtle:/home/zzq/Desktop/GYH_ws/install/learning_urdf:/home/zzq/Desktop/GYH_ws/install/learning_topic:/home/zzq/Desktop/GYH_ws/install/learning_tf:/home/zzq/Desktop/GYH_ws/install/learning_service:/home/zzq/Desktop/GYH_ws/install/learning_qos:/home/zzq/Desktop/GYH_ws/install/learning_pkg_python:/home/zzq/Desktop/GYH_ws/install/learning_parameter:/home/zzq/Desktop/GYH_ws/install/learning_node:/home/zzq/Desktop/GYH_ws/install/learning_launch:/home/zzq/Desktop/GYH_ws/install/learning_action:/home/zzq/Desktop/GYH_ws/install/learning_gazebo:/home/zzq/Desktop/GYH_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/zzq/Desktop/ros2_ws/build/pavo_lidar -- -j32 -l32

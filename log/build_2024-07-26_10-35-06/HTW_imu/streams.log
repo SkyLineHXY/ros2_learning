@@ -1,0 +1,41 @@
+[0.987s] Invoking command in '/home/zzq/Desktop/ros2_ws/build/HTW_imu': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/HTW_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zzq/Desktop/ros2_ws/build/HTW_imu/build
+[1.149s] running develop
+[1.149s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.149s]   warnings.warn(
+[1.281s] Removing /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HTW-imu.egg-link (link to .)
+[1.296s] Invoked command in '/home/zzq/Desktop/ros2_ws/build/HTW_imu' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/HTW_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zzq/Desktop/ros2_ws/build/HTW_imu/build
+[1.298s] Invoking command in '/home/zzq/Desktop/ros2_ws/src/HWT_imu': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/HTW_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/HTW_imu build --build-base /home/zzq/Desktop/ros2_ws/build/HTW_imu/build install --record /home/zzq/Desktop/ros2_ws/build/HTW_imu/install.log --single-version-externally-managed install_data --force
+[1.452s] running egg_info
+[1.453s] writing ../../build/HTW_imu/HTW_imu.egg-info/PKG-INFO
+[1.453s] writing dependency_links to ../../build/HTW_imu/HTW_imu.egg-info/dependency_links.txt
+[1.453s] writing entry points to ../../build/HTW_imu/HTW_imu.egg-info/entry_points.txt
+[1.453s] writing requirements to ../../build/HTW_imu/HTW_imu.egg-info/requires.txt
+[1.453s] writing top-level names to ../../build/HTW_imu/HTW_imu.egg-info/top_level.txt
+[1.454s] reading manifest file '../../build/HTW_imu/HTW_imu.egg-info/SOURCES.txt'
+[1.454s] writing manifest file '../../build/HTW_imu/HTW_imu.egg-info/SOURCES.txt'
+[1.455s] running build
+[1.455s] running build_py
+[1.455s] running install
+[1.455s] running install_lib
+[1.455s] creating /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu
+[1.456s] copying /home/zzq/Desktop/ros2_ws/build/HTW_imu/build/lib/HWT_imu/convert.py -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu
+[1.456s] copying /home/zzq/Desktop/ros2_ws/build/HTW_imu/build/lib/HWT_imu/wit_imu_ctrl.py -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu
+[1.456s] copying /home/zzq/Desktop/ros2_ws/build/HTW_imu/build/lib/HWT_imu/wit_modbus_ros.py -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu
+[1.456s] copying /home/zzq/Desktop/ros2_ws/build/HTW_imu/build/lib/HWT_imu/__init__.py -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu
+[1.456s] copying /home/zzq/Desktop/ros2_ws/build/HTW_imu/build/lib/HWT_imu/get_imu_rpy.py -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu
+[1.457s] byte-compiling /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu/convert.py to convert.cpython-310.pyc
+[1.457s] byte-compiling /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu/wit_imu_ctrl.py to wit_imu_ctrl.cpython-310.pyc
+[1.457s] byte-compiling /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu/wit_modbus_ros.py to wit_modbus_ros.cpython-310.pyc
+[1.458s] byte-compiling /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu/__init__.py to __init__.cpython-310.pyc
+[1.458s] byte-compiling /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu/get_imu_rpy.py to get_imu_rpy.cpython-310.pyc
+[1.458s] running install_data
+[1.458s] copying resource/HTW_imu -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/share/ament_index/resource_index/packages
+[1.458s] copying package.xml -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/share/HTW_imu
+[1.458s] running install_egg_info
+[1.459s] Copying ../../build/HTW_imu/HTW_imu.egg-info to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HTW_imu-0.0.0-py3.10.egg-info
+[1.460s] running install_scripts
+[1.473s] Installing get_imu_rpy script to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/HTW_imu
+[1.473s] Installing wit_imu_ctrl script to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/HTW_imu
+[1.474s] Installing wit_modbus_ros script to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/HTW_imu
+[1.474s] writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/HTW_imu/install.log'
+[1.490s] Invoked command in '/home/zzq/Desktop/ros2_ws/src/HWT_imu' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/HTW_imu/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/HTW_imu build --build-base /home/zzq/Desktop/ros2_ws/build/HTW_imu/build install --record /home/zzq/Desktop/ros2_ws/build/HTW_imu/install.log --single-version-externally-managed install_data --force

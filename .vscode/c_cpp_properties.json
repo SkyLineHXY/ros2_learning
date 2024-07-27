@@ -6,11 +6,13 @@
                 "limitSymbolsToIncludedHeaders": false
             },
             "includePath": [
-                "/usr/include/**",
+                "/home/zzq/Desktop/ros2_ws/install/srv_msg_creating/include/**",
+                "/home/zzq/Desktop/GYH_ws/install/learning_interface/include/**",
                 "/opt/ros/humble/include/**",
-                "/opt/ros/humble/include/rclcpp",
-                "/opt/ros/humble/include/rcl",
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "/usr/include/**",
+                "${workspaceFolder}/src/pavo_lidar/sdk/include",
+                "/opt/ros/humble/include/std_srvs"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

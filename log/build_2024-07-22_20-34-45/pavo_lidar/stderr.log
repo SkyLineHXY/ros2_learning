@@ -1,0 +1,25 @@
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/sdk/src/pavo_driver.cpp.o: warning: relocation against `_ZTVN5boost6detail16thread_data_baseE' in read-only section `.text._ZN5boost6detail16thread_data_baseC2Ev[_ZN5boost6detail16thread_data_baseC5Ev]'
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/sdk/src/pavo_driver.cpp.o: in function `boost::detail::thread_data_base::thread_data_base()':
+pavo_driver.cpp:(.text._ZN5boost6detail16thread_data_baseC2Ev[_ZN5boost6detail16thread_data_baseC5Ev]+0x24): undefined reference to `vtable for boost::detail::thread_data_base'
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/sdk/src/pavo_driver.cpp.o: in function `boost::detail::interruption_checker::interruption_checker(pthread_mutex_t*, pthread_cond_t*)':
+pavo_driver.cpp:(.text._ZN5boost6detail20interruption_checkerC2EP15pthread_mutex_tP14pthread_cond_t[_ZN5boost6detail20interruption_checkerC5EP15pthread_mutex_tP14pthread_cond_t]+0x29): undefined reference to `boost::detail::get_current_thread_data()'
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/sdk/src/pavo_driver.cpp.o: in function `boost::thread::start_thread()':
+pavo_driver.cpp:(.text._ZN5boost6thread12start_threadEv[_ZN5boost6thread12start_threadEv]+0x28): undefined reference to `boost::thread::start_thread_noexcept()'
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/sdk/src/pavo_driver.cpp.o: in function `boost::thread::~thread()':
+pavo_driver.cpp:(.text._ZN5boost6threadD2Ev[_ZN5boost6threadD5Ev]+0x18): undefined reference to `boost::thread::detach()'
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/sdk/src/pavo_driver.cpp.o: in function `boost::thread::get_id() const':
+pavo_driver.cpp:(.text._ZNK5boost6thread6get_idEv[_ZNK5boost6thread6get_idEv]+0x27): undefined reference to `boost::thread::native_handle()'
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/sdk/src/pavo_driver.cpp.o: in function `boost::thread::join()':
+pavo_driver.cpp:(.text._ZN5boost6thread4joinEv[_ZN5boost6thread4joinEv]+0x7c): undefined reference to `boost::thread::join_noexcept()'
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/sdk/src/pavo_driver.cpp.o: in function `boost::condition_variable::wait(boost::unique_lock<boost::mutex>&)':
+pavo_driver.cpp:(.text._ZN5boost18condition_variable4waitERNS_11unique_lockINS_5mutexEEE[_ZN5boost18condition_variable4waitERNS_11unique_lockINS_5mutexEEE]+0x119): undefined reference to `boost::this_thread::interruption_point()'
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/sdk/src/pavo_driver.cpp.o: in function `boost::condition_variable::do_wait_until(boost::unique_lock<boost::mutex>&, boost::detail::mono_platform_timepoint const&)':
+pavo_driver.cpp:(.text._ZN5boost18condition_variable13do_wait_untilERNS_11unique_lockINS_5mutexEEERKNS_6detail23mono_platform_timepointE[_ZN5boost18condition_variable13do_wait_untilERNS_11unique_lockINS_5mutexEEERKNS_6detail23mono_platform_timepointE]+0x133): undefined reference to `boost::this_thread::interruption_point()'
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/sdk/src/pavo_driver.cpp.o: in function `boost::detail::thread_data<boost::_bi::bind_t<unsigned long, boost::_mfi::mf0<unsigned long, boost::asio::io_context>, boost::_bi::list1<boost::_bi::value<boost::asio::io_context*> > > >::~thread_data()':
+pavo_driver.cpp:(.text._ZN5boost6detail11thread_dataINS_3_bi6bind_tImNS_4_mfi3mf0ImNS_4asio10io_contextEEENS2_5list1INS2_5valueIPS7_EEEEEEED2Ev[_ZN5boost6detail11thread_dataINS_3_bi6bind_tImNS_4_mfi3mf0ImNS_4asio10io_contextEEENS2_5list1INS2_5valueIPS7_EEEEEEED5Ev]+0x26): undefined reference to `boost::detail::thread_data_base::~thread_data_base()'
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/sdk/src/pavo_driver.cpp.o:(.data.rel.ro._ZTIN5boost6detail11thread_dataINS_3_bi6bind_tImNS_4_mfi3mf0ImNS_4asio10io_contextEEENS2_5list1INS2_5valueIPS7_EEEEEEEE[_ZTIN5boost6detail11thread_dataINS_3_bi6bind_tImNS_4_mfi3mf0ImNS_4asio10io_contextEEENS2_5list1INS2_5valueIPS7_EEEEEEEE]+0x10): undefined reference to `typeinfo for boost::detail::thread_data_base'
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/pavo_pcd_pub.dir/build.make:225：pavo_pcd_pub] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pavo_pcd_pub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

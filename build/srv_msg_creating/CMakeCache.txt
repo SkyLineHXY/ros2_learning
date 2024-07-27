@@ -363,9 +363,6 @@ fastcdr_DIR:PATH=/opt/ros/humble/lib/cmake/fastcdr
 //The directory containing a CMake configuration file for fastrtps_cmake_module.
 fastrtps_cmake_module_DIR:PATH=/opt/ros/humble/share/fastrtps_cmake_module/cmake
 
-//The directory containing a CMake configuration file for geometry_msgs.
-geometry_msgs_DIR:PATH=/opt/ros/humble/share/geometry_msgs/cmake
-
 //The directory containing a CMake configuration file for python_cmake_module.
 python_cmake_module_DIR:PATH=/opt/ros/humble/share/python_cmake_module/cmake
 
@@ -467,9 +464,6 @@ srv_msg_creating__rosidl_typesupport_introspection_c__pyext_LIB_DEPENDS:STATIC=g
 
 //Dependencies for the target
 srv_msg_creating__rosidl_typesupport_introspection_cpp_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rosidl_typesupport_introspection_cpp::rosidl_typesupport_introspection_cpp;general;action_msgs::action_msgs__rosidl_typesupport_introspection_cpp;general;builtin_interfaces::builtin_interfaces__rosidl_typesupport_introspection_cpp;general;unique_identifier_msgs::unique_identifier_msgs__rosidl_typesupport_introspection_cpp;
-
-//The directory containing a CMake configuration file for std_msgs.
-std_msgs_DIR:PATH=/opt/ros/humble/share/std_msgs/cmake
 
 //The directory containing a CMake configuration file for unique_identifier_msgs.
 unique_identifier_msgs_DIR:PATH=/opt/ros/humble/share/unique_identifier_msgs/cmake

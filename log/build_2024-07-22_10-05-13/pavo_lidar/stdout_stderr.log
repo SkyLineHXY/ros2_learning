@@ -1,0 +1,68 @@
+[35m[1mConsolidate compiler generated dependencies of target pavo_pcd_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o[0m
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_driver.h:12[m[K,
+                 from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:6[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_cmd.h:[m[K In function ‘[01m[Kbool IsValidMotorSpeed(int)[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_cmd.h:244:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  244 |                 if([01;35m[Kspeed == VALID_MOTOR_SPEED[i][m[K)
+      |                    [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_cmd.h:[m[K In function ‘[01m[Kbool IsValidPointCloudMergeCoef(int)[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_cmd.h:256:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  256 |                 if([01;35m[Kcoef == VALID_POINT_CLOUD_MERGE_COEF[i][m[K)
+      |                    [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:6[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_driver.h:[m[K At global scope:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_driver.h:29:31:[m[K [01;31m[Kerror: [m[KISO C++17 does not allow dynamic exception specifications
+   29 |                 pavo_driver() [01;31m[Kthrow[m[K(pavo_exception);
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_driver.h:30:70:[m[K [01;31m[Kerror: [m[KISO C++17 does not allow dynamic exception specifications
+   30 |                 pavo_driver(std::string dest_ip, uint16_t dest_port) [01;31m[Kthrow[m[K(pavo_exception);
+      |                                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_driver.h:32:115:[m[K [01;31m[Kerror: [m[KISO C++17 does not allow dynamic exception specifications
+   32 |                 pavo_driver(std::string device_ip, uint16_t device_port, std::string dest_ip, uint16_t dest_port) [01;31m[Kthrow[m[K(pavo_exception);
+      |                                                                                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_driver.h:36:77:[m[K [01;31m[Kerror: [m[KISO C++17 does not allow dynamic exception specifications
+   36 |                 bool pavo_open(std::string device_ip, uint16_t device_port) [01;31m[Kthrow[m[K(pavo_exception);
+      |                                                                             [01;31m[K^~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:9:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kpavo::pavo_driver::pavo_driver[m[K’ names the constructor, not the type
+    9 | [01;31m[Kpavo[m[K::pavo_driver::pavo_driver *drv =NULL;
+      | [01;31m[K^~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:10:47:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+   10 | void get_param(const std::string &param_name, [01;35m[Kauto[m[K &param_var)
+      |                                               [01;35m[K^~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:[m[K In function ‘[01m[Kvoid get_param(const string&, auto:41&)[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:12:9:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   12 |     if ([01;31m[Kthis[m[K->has_parameter(param_name))
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:14:9:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+   14 |         [01;31m[Kthis[m[K->get_parameter(param_name, param_var);
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:[m[K In constructor ‘[01m[KPC_Pub_node::PC_Pub_node()[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:78:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrv[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+   78 |             [01;31m[Kdrv[m[K = new pavo::pavo_driver();
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kdiv[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:82:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrv[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+   82 |             [01;31m[Kdrv[m[K = new pavo::pavo_driver(this->host_ip,this->host_port);
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kdiv[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:84:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrv[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+   84 |         [01;31m[Kdrv[m[K->pavo_open(this->lidar_ip,this->lidar_port);
+      |         [01;31m[K^~~[m[K
+      |         [32m[Kdiv[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:38:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum_points[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   38 |         int [01;35m[Knum_points[m[K;
+      |             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:[m[K In destructor ‘[01m[Kvirtual PC_Pub_node::~PC_Pub_node()[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:124:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrv[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+  124 |         delete [01;31m[Kdrv[m[K;
+      |                [01;31m[K^~~[m[K
+      |                [32m[Kdiv[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:[m[K In member function ‘[01m[Kvoid PC_Pub_node::timer_callback()[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:145:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kdrv[m[K’ was not declared in this scope; did you mean ‘[01m[Kdiv[m[K’?
+  145 |             [01;31m[Kdrv[m[K->get_scanned_data(pcd_vec);
+      |             [01;31m[K^~~[m[K
+      |             [32m[Kdiv[m[K
+gmake[2]: *** [CMakeFiles/pavo_pcd_pub.dir/build.make:76：CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pavo_pcd_pub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

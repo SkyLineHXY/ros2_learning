@@ -1,0 +1,4 @@
+source;share/pavo_lidar/local_setup.bash
+source;share/pavo_lidar/local_setup.dsv
+source;share/pavo_lidar/local_setup.sh
+source;share/pavo_lidar/local_setup.zsh

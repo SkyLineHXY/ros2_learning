@@ -1,0 +1,188 @@
+[ 20%] [32mBuilding CXX object CMakeFiles/pavo_pcd_pub.dir/sdk/src/pavo_driver.cpp.o[0m
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:[m[K In function ‘[01m[Kint pavo::PavoAdjustAzimuth(int, int, int, unsigned int, int)[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:43:37:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfiringblock[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   43 |                                 [01;35m[Kint firingblock[m[K, //one of the 12 blocks
+      |                                 [01;35m[K~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:16[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:[m[K In constructor ‘[01m[Kpavo::pavo_driver::pavo_driver()[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:170:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpavo::pavo_driver::IsResponseReceived[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  170 |                 bool [01;35m[KIsResponseReceived[m[K;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:168:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint pavo::pavo_driver::FrameCount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  168 |                 int [01;35m[KFrameCount[m[K;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:51:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   51 |         [01;35m[Kpavo_driver[m[K::pavo_driver()
+      |         [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:16[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:196:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpavo::pavo_driver::DegreeCrop[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  196 |                 bool [01;35m[KDegreeCrop[m[K;
+      |                      [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:186:30:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kunsigned int pavo::pavo_driver::AzimuthDiff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  186 |                 unsigned int [01;35m[KAzimuthDiff[m[K;
+      |                              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:51:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   51 |         [01;35m[Kpavo_driver[m[K::pavo_driver()
+      |         [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:16[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:186:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpavo::pavo_driver::AzimuthDiff[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  186 |                 unsigned int [01;35m[KAzimuthDiff[m[K;
+      |                              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:178:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint pavo::pavo_driver::FrameCapacity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  178 |                 int [01;35m[KFrameCapacity[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:51:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   51 |         [01;35m[Kpavo_driver[m[K::pavo_driver()
+      |         [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:16[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:187:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpavo::pavo_driver::ResponseCount[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  187 |                 unsigned int [01;35m[KResponseCount[m[K;
+      |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:175:66:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kboost::scoped_ptr<boost::asio::io_context::work> pavo::pavo_driver::DummyWork[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  175 |                 boost::scoped_ptr<boost::asio::io_service::work> [01;35m[KDummyWork[m[K;
+      |                                                                  [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:51:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   51 |         [01;35m[Kpavo_driver[m[K::pavo_driver()
+      |         [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:16[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:[m[K In constructor ‘[01m[Kpavo::pavo_driver::pavo_driver(std::string, uint16_t)[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:170:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpavo::pavo_driver::IsResponseReceived[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  170 |                 bool [01;35m[KIsResponseReceived[m[K;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:168:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint pavo::pavo_driver::FrameCount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  168 |                 int [01;35m[KFrameCount[m[K;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:79:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   79 |         [01;35m[Kpavo_driver[m[K::pavo_driver(std::string dest_ip, uint16_t dest_port)
+      |         [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:16[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:196:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpavo::pavo_driver::DegreeCrop[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  196 |                 bool [01;35m[KDegreeCrop[m[K;
+      |                      [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:186:30:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kunsigned int pavo::pavo_driver::AzimuthDiff[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  186 |                 unsigned int [01;35m[KAzimuthDiff[m[K;
+      |                              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:79:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   79 |         [01;35m[Kpavo_driver[m[K::pavo_driver(std::string dest_ip, uint16_t dest_port)
+      |         [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:16[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:186:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpavo::pavo_driver::AzimuthDiff[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  186 |                 unsigned int [01;35m[KAzimuthDiff[m[K;
+      |                              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:178:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint pavo::pavo_driver::FrameCapacity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  178 |                 int [01;35m[KFrameCapacity[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:79:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   79 |         [01;35m[Kpavo_driver[m[K::pavo_driver(std::string dest_ip, uint16_t dest_port)
+      |         [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:16[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:187:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpavo::pavo_driver::ResponseCount[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  187 |                 unsigned int [01;35m[KResponseCount[m[K;
+      |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:175:66:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kboost::scoped_ptr<boost::asio::io_context::work> pavo::pavo_driver::DummyWork[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  175 |                 boost::scoped_ptr<boost::asio::io_service::work> [01;35m[KDummyWork[m[K;
+      |                                                                  [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:79:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   79 |         [01;35m[Kpavo_driver[m[K::pavo_driver(std::string dest_ip, uint16_t dest_port)
+      |         [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:16[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:[m[K In constructor ‘[01m[Kpavo::pavo_driver::pavo_driver(std::string, uint16_t, std::string, uint16_t)[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:170:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpavo::pavo_driver::IsResponseReceived[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  170 |                 bool [01;35m[KIsResponseReceived[m[K;
+      |                      [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:168:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint pavo::pavo_driver::FrameCount[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  168 |                 int [01;35m[KFrameCount[m[K;
+      |                     [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:113:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  113 |         [01;35m[Kpavo_driver[m[K::pavo_driver(std::string device_ip, uint16_t device_port, std::string dest_ip, uint16_t dest_port)
+      |         [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:16[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:186:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpavo::pavo_driver::AzimuthDiff[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  186 |                 unsigned int [01;35m[KAzimuthDiff[m[K;
+      |                              [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:178:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kint pavo::pavo_driver::FrameCapacity[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  178 |                 int [01;35m[KFrameCapacity[m[K;
+      |                     [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:113:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  113 |         [01;35m[Kpavo_driver[m[K::pavo_driver(std::string device_ip, uint16_t device_port, std::string dest_ip, uint16_t dest_port)
+      |         [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:16[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:187:30:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpavo::pavo_driver::ResponseCount[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  187 |                 unsigned int [01;35m[KResponseCount[m[K;
+      |                              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/../include/pavo_driver.h:175:66:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kboost::scoped_ptr<boost::asio::io_context::work> pavo::pavo_driver::DummyWork[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  175 |                 boost::scoped_ptr<boost::asio::io_service::work> [01;35m[KDummyWork[m[K;
+      |                                                                  [01;35m[K^~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:113:9:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  113 |         [01;35m[Kpavo_driver[m[K::pavo_driver(std::string device_ip, uint16_t device_port, std::string dest_ip, uint16_t dest_port)
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:[m[K In member function ‘[01m[Kbool pavo::pavo_driver::get_scanned_data(std::vector<pavo_response_pcd>&, int)[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:661:42:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksinu_ptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  661 |                         SinuLookupTable* [01;35m[Ksinu_ptr[m[K = SinuLookupTable::Instance();
+      |                                          [01;35m[K^~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:[m[K In member function ‘[01m[Kbool pavo::pavo_driver::get_scanned_data_timestamp(std::vector<pavo_response_pcd>&, unsigned int&, int)[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:880:42:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksinu_ptr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  880 |                         SinuLookupTable* [01;35m[Ksinu_ptr[m[K = SinuLookupTable::Instance();
+      |                                          [01;35m[K^~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:[m[K In member function ‘[01m[Kint pavo::pavo_driver::GetEchoMode()[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:1225:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1225 |                 if ([01;35m[Kecho == LegalEchoMode[0][m[K)
+      |                     [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:1229:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1229 |                 if ([01;35m[Kecho == LegalEchoMode[1][m[K)
+      |                     [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:1222:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kv2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1222 |                 unsigned char v1, [01;35m[Kv2[m[K;
+      |                                   [01;35m[K^~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:[m[K In member function ‘[01m[Kint pavo::pavo_driver::GetAntiMode()[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:1280:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1280 |                 if ([01;35m[Kanti == LeagalAntiMode[0][m[K)
+      |                     [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:1284:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1284 |                 else if ([01;35m[Kanti == LeagalAntiMode[1][m[K)
+      |                          [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:[m[K In member function ‘[01m[Kvoid pavo::pavo_driver::ProcessPavoFiring(pavo_firing_data_t*, int, int)[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:1560:76:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+ 1560 |                                 if(iExpectCount > 0 && [01;35m[Kthis->ResponseCount < iExpectCount[m[K)
+      |                                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:1576:64:[m[K [01;35m[Kwarning: [m[Kinteger overflow in expression of type ‘[01m[Kint[m[K’ results in ‘[01m[K-694967296[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+ 1576 |                                 unsigned int total_time = [01;35m[K3600 * 1000000[m[K;
+      |                                                           [01;35m[K~~~~~^~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:[m[K In member function ‘[01m[Kvoid pavo::pavo_driver::ProcessPavoPacket(unsigned char*, std::size_t)[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:1652:34:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krotation[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1652 |                         uint16_t [01;35m[Krotation[m[K = __bytes2uint16(firingData->rotationalPosition);
+      |                                  [01;35m[K^~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:1611:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KbytesReceived[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+ 1611 |         void pavo_driver::ProcessPavoPacket(unsigned char *data, [01;35m[Kstd::size_t bytesReceived[m[K)
+      |                                                                  [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:[m[K In member function ‘[01m[Kbool pavo::pavo_driver::ConfigRegDual(PAVO_REG_INDEX, PAVO_REG_INDEX, const char*)[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:1749:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kret_bool[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+ 1749 |                 bool [01;35m[Kret_bool[m[K = false;
+      |                      [01;35m[K^~~~~~~~[m[K
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:[m[K In member function ‘[01m[Kbool pavo::pavo_driver::pavo_open(std::string, uint16_t)[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/src/pavo_driver.cpp:248:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  248 |         [01;35m[K}[m[K
+      |         [01;35m[K^[m[K
+[ 40%] [32m[1mLinking CXX executable pavo_pcd_pub[0m
+[100%] Built target pavo_pcd_pub
+-- Install configuration: "RelWithDebInfo"
+-- Execute custom install script
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/environment/library_path.sh
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/environment/library_path.dsv
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/lib/pavo_lidar/pavo_pcd_pub
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/ament_index/resource_index/package_run_dependencies/pavo_lidar
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/ament_index/resource_index/parent_prefix_path/pavo_lidar
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/environment/path.sh
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/environment/path.dsv
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/local_setup.bash
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/local_setup.sh
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/local_setup.zsh
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/local_setup.dsv
+-- Symlinking: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/package.dsv
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/ament_index/resource_index/packages/pavo_lidar
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/cmake/pavo_lidarConfig.cmake
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/cmake/pavo_lidarConfig-version.cmake
+-- Up-to-date symlink: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/package.xml

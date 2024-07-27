@@ -1,0 +1,20 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing service_client_py.egg-info/PKG-INFO
+writing dependency_links to service_client_py.egg-info/dependency_links.txt
+writing entry points to service_client_py.egg-info/entry_points.txt
+writing requirements to service_client_py.egg-info/requires.txt
+writing top-level names to service_client_py.egg-info/top_level.txt
+reading manifest file 'service_client_py.egg-info/SOURCES.txt'
+writing manifest file 'service_client_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service-client-py.egg-link (link to .)
+Installing client script to /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/service_client_py
+Installing service script to /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/service_client_py
+
+Installed /home/zzq/Desktop/ros2_ws/build/service_client_py
+running symlink_data
+symbolically linking /home/zzq/Desktop/ros2_ws/build/service_client_py/resource/service_client_py -> /home/zzq/Desktop/ros2_ws/install/service_client_py/share/ament_index/resource_index/packages
+symbolically linking /home/zzq/Desktop/ros2_ws/build/service_client_py/package.xml -> /home/zzq/Desktop/ros2_ws/install/service_client_py/share/service_client_py

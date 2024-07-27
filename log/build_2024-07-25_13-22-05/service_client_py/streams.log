@@ -1,0 +1,22 @@
+[0.967s] Invoking command in '/home/zzq/Desktop/ros2_ws/build/service_client_py': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/service_client_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zzq/Desktop/ros2_ws/build/service_client_py/build --no-deps symlink_data --force
+[1.233s] running develop
+[1.233s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.234s]   warnings.warn(
+[1.400s] running egg_info
+[1.400s] writing service_client_py.egg-info/PKG-INFO
+[1.401s] writing dependency_links to service_client_py.egg-info/dependency_links.txt
+[1.401s] writing entry points to service_client_py.egg-info/entry_points.txt
+[1.401s] writing requirements to service_client_py.egg-info/requires.txt
+[1.401s] writing top-level names to service_client_py.egg-info/top_level.txt
+[1.402s] reading manifest file 'service_client_py.egg-info/SOURCES.txt'
+[1.402s] writing manifest file 'service_client_py.egg-info/SOURCES.txt'
+[1.403s] running build_ext
+[1.403s] Creating /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service-client-py.egg-link (link to .)
+[1.403s] Installing client script to /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/service_client_py
+[1.403s] Installing service script to /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/service_client_py
+[1.404s] 
+[1.404s] Installed /home/zzq/Desktop/ros2_ws/build/service_client_py
+[1.404s] running symlink_data
+[1.404s] symbolically linking /home/zzq/Desktop/ros2_ws/build/service_client_py/resource/service_client_py -> /home/zzq/Desktop/ros2_ws/install/service_client_py/share/ament_index/resource_index/packages
+[1.404s] symbolically linking /home/zzq/Desktop/ros2_ws/build/service_client_py/package.xml -> /home/zzq/Desktop/ros2_ws/install/service_client_py/share/service_client_py
+[1.420s] Invoked command in '/home/zzq/Desktop/ros2_ws/build/service_client_py' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/service_client_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/zzq/Desktop/ros2_ws/build/service_client_py/build --no-deps symlink_data --force

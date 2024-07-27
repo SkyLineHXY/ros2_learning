@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target pavo_pcd_pub[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o[0m
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:116:55:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+  116 |         void get_param(const std::string &param_name, [01;35m[Kauto[m[K &param_var)
+      |                                                       [01;35m[K^~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:1[m[K:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:[m[K In member function ‘[01m[Kvoid PC_Pub_node::timer_callback()[m[K’:
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:160:94:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_v[m[K’ was not declared in this scope
+  160 |             RCLCPP_INFO_THROTTLE(this->get_logger(), sys_time, 2000, "Publishing twist: %f", [01;31m[Kmsg_v[m[K.linear.x);
+      |                                                                                              [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/pavo_pcd_pub.dir/build.make:76：CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pavo_pcd_pub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

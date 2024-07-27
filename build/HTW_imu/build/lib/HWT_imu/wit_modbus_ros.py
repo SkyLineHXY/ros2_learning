@@ -6,14 +6,9 @@ import math
 import serial.tools.list_ports
 from sensor_msgs.msg import Imu
 from sensor_msgs.msg import MagneticField
-import tf2_ros
 import time
-
 import modbus_tk.defines as cst
 from modbus_tk import modbus_rtu
-import tf2_geometry_msgs
-from geometry_msgs.msg import Quaternion
-
 import tf_transformations
 def find_ttyUSB():
     # print('The default serial port of the imu is /dev/ttyUSB0, if multiple serial port devices are identified, modify the serial port corresponding to the imu in the launch file')
@@ -130,11 +125,13 @@ class IMU_node(Node):
             imu_msg.header.stamp = self.get_clock().now().to_msg()
             
         
-            # euler=tf_transformations.euler_from_quaternion(quat)
+            euler=tf_transformations.euler_from_quaternion(quat)
             # rpy
-            # print(' roll :'+str(euler[0]*180/3.1415926)
-            #       +' pitch:'+str(euler[1]*180/3.1415926)
-            #       + ' yaw:' + str(euler[2]*180/3.1415926))
+            #保留RPY两位小数
+
+            self.get_logger().info(' roll :'+str(round(euler[2]*180/3.1415926,2))
+                  +' pitch:'+str(round(euler[1]*180/3.1415926,2))
+                  + ' yaw:' + str(round(euler[0]*180/3.1415926,2)))
             self.imu_pub.publish(imu_msg)
             self.mag_pub.publish(mag_msg)
 def main(args=None):

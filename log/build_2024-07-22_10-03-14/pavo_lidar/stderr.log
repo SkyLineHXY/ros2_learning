@@ -1,0 +1,7 @@
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/point_cloud.hpp: 没有那个文件或目录
+    7 | #include [01;31m[K"sensor_msgs/msg/point_cloud.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pavo_pcd_pub.dir/build.make:76：CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pavo_pcd_pub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,7 @@
+[ 25%] [32m[1mLinking CXX executable pavo_pcd_pub[0m
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o: in function `PC_Pub_node::PC_Pub_node()':
+pavo_pcd_node.cpp:(.text._ZN11PC_Pub_nodeC2Ev[_ZN11PC_Pub_nodeC5Ev]+0x1348): undefined reference to `pavo::pavo_driver::pavo_driver()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/pavo_pcd_pub.dir/build.make:209：pavo_pcd_pub] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pavo_pcd_pub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

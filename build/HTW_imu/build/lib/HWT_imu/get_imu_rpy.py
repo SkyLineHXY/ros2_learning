@@ -17,7 +17,6 @@ class get_IMU_node(Node):
             msg.orientation.z,
             msg.orientation.w
         )
-        
         euler = tf_transformations.euler_from_quaternion(quaternion)
         roll, pitch, yaw = euler
         # Convert radians to degrees

@@ -1,0 +1,31 @@
+[0.006s] Invoking command in '/home/zzq/Desktop/ros2_ws/build/pavo_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py:/home/zzq/Desktop/ros2_ws/install/service_client_py:/home/zzq/Desktop/ros2_ws/install/beitong_joy:/home/zzq/Desktop/ros2_ws/install/beginner_py:/home/zzq/Desktop/ros2_ws/install/HTW_imu:/home/zzq/Desktop/ros2_ws/install/Action_turtle:/home/zzq/Desktop/GYH_ws/install/learning_urdf:/home/zzq/Desktop/GYH_ws/install/learning_topic:/home/zzq/Desktop/GYH_ws/install/learning_tf:/home/zzq/Desktop/GYH_ws/install/learning_service:/home/zzq/Desktop/GYH_ws/install/learning_qos:/home/zzq/Desktop/GYH_ws/install/learning_pkg_python:/home/zzq/Desktop/GYH_ws/install/learning_parameter:/home/zzq/Desktop/GYH_ws/install/learning_node:/home/zzq/Desktop/GYH_ws/install/learning_launch:/home/zzq/Desktop/GYH_ws/install/learning_action:/home/zzq/Desktop/GYH_ws/install/learning_gazebo:/home/zzq/Desktop/GYH_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/zzq/Desktop/ros2_ws/build/pavo_lidar -- -j32 -l32
+[0.018s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.087s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.100s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.101s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.104s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.109s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.117s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.144s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.145s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.203s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.276s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.320s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.320s] -- Configured cppcheck include dirs: /home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include
+[0.320s] -- Configured cppcheck exclude dirs and/or files: 
+[0.320s] -- Added test 'lint_cmake' to check CMake code style
+[0.321s] -- Added test 'uncrustify' to check C / C++ code style
+[0.321s] -- Configured uncrustify additional arguments: 
+[0.321s] -- Added test 'xmllint' to check XML markup files
+[0.321s] -- Configuring done
+[0.325s] -- Generating done
+[0.325s] -- Build files have been written to: /home/zzq/Desktop/ros2_ws/build/pavo_lidar
+[0.343s] [ 50%] [32mBuilding CXX object CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o[0m
+[0.669s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/point_cloud.hpp: 没有那个文件或目录
+[0.669s]     7 | #include [01;31m[K"sensor_msgs/msg/point_cloud.hpp"[m[K
+[0.669s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.669s] compilation terminated.
+[0.673s] gmake[2]: *** [CMakeFiles/pavo_pcd_pub.dir/build.make:76：CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o] 错误 1
+[0.673s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pavo_pcd_pub.dir/all] 错误 2
+[0.673s] gmake: *** [Makefile:146：all] 错误 2
+[0.675s] Invoked command in '/home/zzq/Desktop/ros2_ws/build/pavo_lidar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py:/home/zzq/Desktop/ros2_ws/install/service_client_py:/home/zzq/Desktop/ros2_ws/install/beitong_joy:/home/zzq/Desktop/ros2_ws/install/beginner_py:/home/zzq/Desktop/ros2_ws/install/HTW_imu:/home/zzq/Desktop/ros2_ws/install/Action_turtle:/home/zzq/Desktop/GYH_ws/install/learning_urdf:/home/zzq/Desktop/GYH_ws/install/learning_topic:/home/zzq/Desktop/GYH_ws/install/learning_tf:/home/zzq/Desktop/GYH_ws/install/learning_service:/home/zzq/Desktop/GYH_ws/install/learning_qos:/home/zzq/Desktop/GYH_ws/install/learning_pkg_python:/home/zzq/Desktop/GYH_ws/install/learning_parameter:/home/zzq/Desktop/GYH_ws/install/learning_node:/home/zzq/Desktop/GYH_ws/install/learning_launch:/home/zzq/Desktop/GYH_ws/install/learning_action:/home/zzq/Desktop/GYH_ws/install/learning_gazebo:/home/zzq/Desktop/GYH_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/zzq/Desktop/ros2_ws/build/pavo_lidar -- -j32 -l32

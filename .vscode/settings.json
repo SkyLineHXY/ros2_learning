@@ -108,7 +108,12 @@
         "assert.h": "c",
         "stdlib.h": "c",
         "string.h": "c",
-        "allocator.h": "c"
+        "allocator.h": "c",
+        "coroutine": "cpp",
+        "source_location": "cpp",
+        "queue": "cpp"
     },
-    "cmake.sourceDirectory": "/home/zzq/Desktop/ros2_ws/src/beginner"
+    "cmake.sourceDirectory": "/home/zzq/Desktop/ros2_ws/src/beginner",
+    "ros.distro": "humle",
+    "ros.rosSetupScript": "${workspaceFolder}/install/setup.bash"
 }

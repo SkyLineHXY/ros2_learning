@@ -1,0 +1,36 @@
+[0.975s] Invoking command in '/home/zzq/Desktop/ros2_ws/build/service_client_py': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/service_client_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zzq/Desktop/ros2_ws/build/service_client_py/build
+[1.138s] running develop
+[1.138s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.138s]   warnings.warn(
+[1.249s] Removing /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service-client-py.egg-link (link to .)
+[1.270s] Invoked command in '/home/zzq/Desktop/ros2_ws/build/service_client_py' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/service_client_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zzq/Desktop/ros2_ws/build/service_client_py/build
+[1.271s] Invoking command in '/home/zzq/Desktop/ros2_ws/src/service_client_py': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/service_client_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_client_py build --build-base /home/zzq/Desktop/ros2_ws/build/service_client_py/build install --record /home/zzq/Desktop/ros2_ws/build/service_client_py/install.log --single-version-externally-managed install_data --force
+[1.430s] running egg_info
+[1.431s] writing ../../build/service_client_py/service_client_py.egg-info/PKG-INFO
+[1.431s] writing dependency_links to ../../build/service_client_py/service_client_py.egg-info/dependency_links.txt
+[1.431s] writing entry points to ../../build/service_client_py/service_client_py.egg-info/entry_points.txt
+[1.431s] writing requirements to ../../build/service_client_py/service_client_py.egg-info/requires.txt
+[1.431s] writing top-level names to ../../build/service_client_py/service_client_py.egg-info/top_level.txt
+[1.432s] reading manifest file '../../build/service_client_py/service_client_py.egg-info/SOURCES.txt'
+[1.433s] writing manifest file '../../build/service_client_py/service_client_py.egg-info/SOURCES.txt'
+[1.433s] running build
+[1.433s] running build_py
+[1.433s] running install
+[1.433s] running install_lib
+[1.433s] creating /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py
+[1.433s] copying /home/zzq/Desktop/ros2_ws/build/service_client_py/build/lib/service_client_py/client.py -> /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py
+[1.434s] copying /home/zzq/Desktop/ros2_ws/build/service_client_py/build/lib/service_client_py/__init__.py -> /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py
+[1.434s] copying /home/zzq/Desktop/ros2_ws/build/service_client_py/build/lib/service_client_py/service.py -> /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py
+[1.434s] byte-compiling /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py/client.py to client.cpython-310.pyc
+[1.434s] byte-compiling /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py/__init__.py to __init__.cpython-310.pyc
+[1.434s] byte-compiling /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py/service.py to service.cpython-310.pyc
+[1.434s] running install_data
+[1.435s] copying resource/service_client_py -> /home/zzq/Desktop/ros2_ws/install/service_client_py/share/ament_index/resource_index/packages
+[1.435s] copying package.xml -> /home/zzq/Desktop/ros2_ws/install/service_client_py/share/service_client_py
+[1.435s] running install_egg_info
+[1.436s] Copying ../../build/service_client_py/service_client_py.egg-info to /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py-0.0.0-py3.10.egg-info
+[1.436s] running install_scripts
+[1.449s] Installing client script to /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/service_client_py
+[1.449s] Installing service script to /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/service_client_py
+[1.449s] writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/service_client_py/install.log'
+[1.464s] Invoked command in '/home/zzq/Desktop/ros2_ws/src/service_client_py' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/service_client_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/service_client_py build --build-base /home/zzq/Desktop/ros2_ws/build/service_client_py/build install --record /home/zzq/Desktop/ros2_ws/build/service_client_py/install.log --single-version-externally-managed install_data --force

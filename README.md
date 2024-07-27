@@ -1,5 +1,5 @@
 
-# ROS2学习记录
+# ROS2
 >[ROS2官网数据手册](https://docs.ros.org/en/rolling/index.html)
 ## 0.Linux基础指令
 命令行查询路径:`pwd`
@@ -160,6 +160,20 @@ my_package/
      package.xml
      src/
 ```
+#### 2.1.1 基础C++节点函数
+##### declare_parameter() 函数
+**函数作用**：在ROS2中，函数 declare_parameter() 用于声明节点所需的参数，并指定参数的类型和默认值；声明的参数都是该节点特有的。
+  **函数原型**：
+```c++
+template<typename T>
+void declare_parameter(const std::string& name,
+                       const T& default_value,
+                       const rclcpp::ParameterOptions& options = rclcpp::ParameterOptions());
+```
+**函数参数**：
+* name：参数名称；
+* deault_value：参数默认值,支持任何 C++ 数据类型，因为这个参数的类型由函数模板决定，而函数模板 T 可以设定为任何值；
+* 
 ### 2.2 pub和sub
 #### 2.2.1pub和sub的简单脚本(python)
 **publisher**
@@ -358,6 +372,50 @@ import tf_transformations
 q = tf_transformations.quaternion_from_euler(roll, pitch, yaw)
 # 将四元素转换成欧拉角 
 euler = tf_transformations.euler_from_quaternion([x, y, z, w])
+```
+#### 2. ubuntu网络配置问题
+ifconfig配置网线开启和关闭：
+```sh
+ifconfig eth0 up # 开启网线
+ifconfig eth0 down # 关闭网线
+```
+ifconfig配置网线IP：
+```sh
+ifconfig eth0 192.168.1.10 # 设置IP地址
+```
+ifconfig配置网线IP和子网掩码：
+```sh
+ifconfig eth0 192.168.1.10 netmask 255.255.255.0 # 设置IP地址和子网
+```
+ **子网掩码的概念**
+是一种用于区分IP地址中哪些部分是网络地址，哪些部分是主机地址的数字。
+
+#### 3.Vscode debug ROS2下的C++文件
+在`launch.json`文件下的`configurations`字典下添加如下内容：
+```json
+        {
+            "name": "ROS2 Debugger",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/install/pavo_lidar/lib/pavo_lidar/pavo_pcd_pub",//ROS2的节点exe文件路径
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "/",
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                  "description": "Enable pretty-printing for gdb",
+                  "text": "-enable-pretty-printing",
+                  "ignoreFailures": true
+                }
+            ]
+        }
+```
+
+#### 2. C++ Lambda表达式：
+```c++
+[capture](args) -> return_type { body }:
 ```
 ## 相关参考blog
 > [Ubuntu22.04 CH340系列串口驱动（没有ttyUSB）问题解决方案](https://blog.51cto.com/u_15473553/5437058)

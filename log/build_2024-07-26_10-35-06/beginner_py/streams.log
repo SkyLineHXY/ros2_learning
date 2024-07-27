@@ -1,0 +1,42 @@
+[1.001s] Invoking command in '/home/zzq/Desktop/ros2_ws/build/beginner_py': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/beginner_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zzq/Desktop/ros2_ws/build/beginner_py/build
+[1.204s] running develop
+[1.204s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.204s]   warnings.warn(
+[1.348s] Removing /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner-py.egg-link (link to .)
+[1.365s] Invoked command in '/home/zzq/Desktop/ros2_ws/build/beginner_py' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/beginner_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/zzq/Desktop/ros2_ws/build/beginner_py/build
+[1.367s] Invoking command in '/home/zzq/Desktop/ros2_ws/src/beginner_py': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/beginner_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/beginner_py build --build-base /home/zzq/Desktop/ros2_ws/build/beginner_py/build install --record /home/zzq/Desktop/ros2_ws/build/beginner_py/install.log --single-version-externally-managed install_data --force
+[1.548s] running egg_info
+[1.549s] writing ../../build/beginner_py/beginner_py.egg-info/PKG-INFO
+[1.549s] writing dependency_links to ../../build/beginner_py/beginner_py.egg-info/dependency_links.txt
+[1.549s] writing entry points to ../../build/beginner_py/beginner_py.egg-info/entry_points.txt
+[1.549s] writing requirements to ../../build/beginner_py/beginner_py.egg-info/requires.txt
+[1.549s] writing top-level names to ../../build/beginner_py/beginner_py.egg-info/top_level.txt
+[1.550s] reading manifest file '../../build/beginner_py/beginner_py.egg-info/SOURCES.txt'
+[1.550s] writing manifest file '../../build/beginner_py/beginner_py.egg-info/SOURCES.txt'
+[1.550s] running build
+[1.550s] running build_py
+[1.551s] running install
+[1.551s] running install_lib
+[1.551s] creating /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py
+[1.551s] copying /home/zzq/Desktop/ros2_ws/build/beginner_py/build/lib/beginner_py/sub.py -> /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py
+[1.551s] copying /home/zzq/Desktop/ros2_ws/build/beginner_py/build/lib/beginner_py/pub.py -> /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py
+[1.552s] copying /home/zzq/Desktop/ros2_ws/build/beginner_py/build/lib/beginner_py/__init__.py -> /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py
+[1.552s] copying /home/zzq/Desktop/ros2_ws/build/beginner_py/build/lib/beginner_py/pub_cv_image.py -> /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py
+[1.552s] copying /home/zzq/Desktop/ros2_ws/build/beginner_py/build/lib/beginner_py/pub_pointcloud.py -> /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py
+[1.552s] byte-compiling /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py/sub.py to sub.cpython-310.pyc
+[1.552s] byte-compiling /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py/pub.py to pub.cpython-310.pyc
+[1.552s] byte-compiling /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py/__init__.py to __init__.cpython-310.pyc
+[1.553s] byte-compiling /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py/pub_cv_image.py to pub_cv_image.cpython-310.pyc
+[1.553s] byte-compiling /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py/pub_pointcloud.py to pub_pointcloud.cpython-310.pyc
+[1.553s] running install_data
+[1.553s] copying resource/beginner_py -> /home/zzq/Desktop/ros2_ws/install/beginner_py/share/ament_index/resource_index/packages
+[1.553s] copying package.xml -> /home/zzq/Desktop/ros2_ws/install/beginner_py/share/beginner_py
+[1.553s] running install_egg_info
+[1.554s] Copying ../../build/beginner_py/beginner_py.egg-info to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner_py-0.0.0-py3.10.egg-info
+[1.554s] running install_scripts
+[1.566s] Installing listener script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+[1.566s] Installing talker script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+[1.566s] Installing talkercv2 script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+[1.567s] Installing talkerpc2 script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+[1.567s] writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/beginner_py/install.log'
+[1.579s] Invoked command in '/home/zzq/Desktop/ros2_ws/src/beginner_py' returned '0': PYTHONPATH=/home/zzq/Desktop/ros2_ws/build/beginner_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/beginner_py build --build-base /home/zzq/Desktop/ros2_ws/build/beginner_py/build install --record /home/zzq/Desktop/ros2_ws/build/beginner_py/install.log --single-version-externally-managed install_data --force

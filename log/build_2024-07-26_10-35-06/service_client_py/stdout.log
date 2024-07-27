@@ -1,0 +1,30 @@
+running develop
+Removing /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service-client-py.egg-link (link to .)
+running egg_info
+writing ../../build/service_client_py/service_client_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/service_client_py/service_client_py.egg-info/dependency_links.txt
+writing entry points to ../../build/service_client_py/service_client_py.egg-info/entry_points.txt
+writing requirements to ../../build/service_client_py/service_client_py.egg-info/requires.txt
+writing top-level names to ../../build/service_client_py/service_client_py.egg-info/top_level.txt
+reading manifest file '../../build/service_client_py/service_client_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/service_client_py/service_client_py.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py
+copying /home/zzq/Desktop/ros2_ws/build/service_client_py/build/lib/service_client_py/client.py -> /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py
+copying /home/zzq/Desktop/ros2_ws/build/service_client_py/build/lib/service_client_py/__init__.py -> /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py
+copying /home/zzq/Desktop/ros2_ws/build/service_client_py/build/lib/service_client_py/service.py -> /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py
+byte-compiling /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py/client.py to client.cpython-310.pyc
+byte-compiling /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py/service.py to service.cpython-310.pyc
+running install_data
+copying resource/service_client_py -> /home/zzq/Desktop/ros2_ws/install/service_client_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/zzq/Desktop/ros2_ws/install/service_client_py/share/service_client_py
+running install_egg_info
+Copying ../../build/service_client_py/service_client_py.egg-info to /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/python3.10/site-packages/service_client_py-0.0.0-py3.10.egg-info
+running install_scripts
+Installing client script to /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/service_client_py
+Installing service script to /home/zzq/Desktop/ros2_ws/install/service_client_py/lib/service_client_py
+writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/service_client_py/install.log'

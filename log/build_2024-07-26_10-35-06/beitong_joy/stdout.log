@@ -1,0 +1,27 @@
+running develop
+Removing /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong-joy.egg-link (link to .)
+running egg_info
+writing ../../build/beitong_joy/beitong_joy.egg-info/PKG-INFO
+writing dependency_links to ../../build/beitong_joy/beitong_joy.egg-info/dependency_links.txt
+writing entry points to ../../build/beitong_joy/beitong_joy.egg-info/entry_points.txt
+writing requirements to ../../build/beitong_joy/beitong_joy.egg-info/requires.txt
+writing top-level names to ../../build/beitong_joy/beitong_joy.egg-info/top_level.txt
+reading manifest file '../../build/beitong_joy/beitong_joy.egg-info/SOURCES.txt'
+writing manifest file '../../build/beitong_joy/beitong_joy.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy
+copying /home/zzq/Desktop/ros2_ws/build/beitong_joy/build/lib/beitong_joy/__init__.py -> /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy
+copying /home/zzq/Desktop/ros2_ws/build/beitong_joy/build/lib/beitong_joy/joy_subscribe.py -> /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy
+byte-compiling /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy/joy_subscribe.py to joy_subscribe.cpython-310.pyc
+running install_data
+copying resource/beitong_joy -> /home/zzq/Desktop/ros2_ws/install/beitong_joy/share/ament_index/resource_index/packages
+copying package.xml -> /home/zzq/Desktop/ros2_ws/install/beitong_joy/share/beitong_joy
+running install_egg_info
+Copying ../../build/beitong_joy/beitong_joy.egg-info to /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/python3.10/site-packages/beitong_joy-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_sub_demo script to /home/zzq/Desktop/ros2_ws/install/beitong_joy/lib/beitong_joy
+writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/beitong_joy/install.log'

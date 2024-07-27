@@ -1,0 +1,21 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing HTW_imu.egg-info/PKG-INFO
+writing dependency_links to HTW_imu.egg-info/dependency_links.txt
+writing entry points to HTW_imu.egg-info/entry_points.txt
+writing requirements to HTW_imu.egg-info/requires.txt
+writing top-level names to HTW_imu.egg-info/top_level.txt
+reading manifest file 'HTW_imu.egg-info/SOURCES.txt'
+writing manifest file 'HTW_imu.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HTW-imu.egg-link (link to .)
+Installing get_imu_rpy script to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/HTW_imu
+Installing wit_imu_ctrl script to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/HTW_imu
+Installing wit_modbus_ros script to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/HTW_imu
+
+Installed /home/zzq/Desktop/ros2_ws/build/HTW_imu
+running symlink_data
+symbolically linking /home/zzq/Desktop/ros2_ws/build/HTW_imu/resource/HTW_imu -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/share/ament_index/resource_index/packages
+symbolically linking /home/zzq/Desktop/ros2_ws/build/HTW_imu/package.xml -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/share/HTW_imu

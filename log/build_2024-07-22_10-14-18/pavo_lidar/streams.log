@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/zzq/Desktop/ros2_ws/build/pavo_lidar': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py:/home/zzq/Desktop/ros2_ws/install/service_client_py:/home/zzq/Desktop/ros2_ws/install/beitong_joy:/home/zzq/Desktop/ros2_ws/install/beginner_py:/home/zzq/Desktop/ros2_ws/install/HTW_imu:/home/zzq/Desktop/ros2_ws/install/Action_turtle:/home/zzq/Desktop/GYH_ws/install/learning_urdf:/home/zzq/Desktop/GYH_ws/install/learning_topic:/home/zzq/Desktop/GYH_ws/install/learning_tf:/home/zzq/Desktop/GYH_ws/install/learning_service:/home/zzq/Desktop/GYH_ws/install/learning_qos:/home/zzq/Desktop/GYH_ws/install/learning_pkg_python:/home/zzq/Desktop/GYH_ws/install/learning_parameter:/home/zzq/Desktop/GYH_ws/install/learning_node:/home/zzq/Desktop/GYH_ws/install/learning_launch:/home/zzq/Desktop/GYH_ws/install/learning_action:/home/zzq/Desktop/GYH_ws/install/learning_gazebo:/home/zzq/Desktop/GYH_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/zzq/Desktop/ros2_ws/build/pavo_lidar -- -j32 -l32
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target pavo_pcd_pub[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o[0m
+[1.749s] In file included from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_driver.h:12[m[K,
+[1.749s]                  from [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:6[m[K:
+[1.749s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_cmd.h:[m[K In function ‘[01m[Kbool IsValidMotorSpeed(int)[m[K’:
+[1.749s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_cmd.h:244:26:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.749s]   244 |                 if([01;35m[Kspeed == VALID_MOTOR_SPEED[i][m[K)
+[1.749s]       |                    [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.749s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_cmd.h:[m[K In function ‘[01m[Kbool IsValidPointCloudMergeCoef(int)[m[K’:
+[1.749s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/sdk/include/pavo_cmd.h:256:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kconst unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.749s]   256 |                 if([01;35m[Kcoef == VALID_POINT_CLOUD_MERGE_COEF[i][m[K)
+[1.749s]       |                    [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.767s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:[m[K At global scope:
+[1.767s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:10:47:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[1.767s]    10 | void get_param(const std::string &param_name, [01;35m[Kauto[m[K &param_var)
+[1.767s]       |                                               [01;35m[K^~~~[m[K
+[1.767s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:[m[K In function ‘[01m[Kvoid get_param(const string&, auto:41&)[m[K’:
+[1.767s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:12:9:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.767s]    12 |     if ([01;31m[Kthis[m[K->has_parameter(param_name))
+[1.767s]       |         [01;31m[K^~~~[m[K
+[1.767s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:14:9:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[1.767s]    14 |         [01;31m[Kthis[m[K->get_parameter(param_name, param_var);
+[1.767s]       |         [01;31m[K^~~~[m[K
+[1.780s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:[m[K In constructor ‘[01m[KPC_Pub_node::PC_Pub_node()[m[K’:
+[1.780s] [01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:38:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Knum_points[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.780s]    38 |         int [01;35m[Knum_points[m[K;
+[1.780s]       |             [01;35m[K^~~~~~~~~~[m[K
+[2.272s] gmake[2]: *** [CMakeFiles/pavo_pcd_pub.dir/build.make:76：CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o] 错误 1
+[2.272s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pavo_pcd_pub.dir/all] 错误 2
+[2.272s] gmake: *** [Makefile:146：all] 错误 2
+[2.274s] Invoked command in '/home/zzq/Desktop/ros2_ws/build/pavo_lidar' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/zzq/Desktop/ros2_ws/install/srv_msg_creating_py:/home/zzq/Desktop/ros2_ws/install/service_client_py:/home/zzq/Desktop/ros2_ws/install/beitong_joy:/home/zzq/Desktop/ros2_ws/install/beginner_py:/home/zzq/Desktop/ros2_ws/install/HTW_imu:/home/zzq/Desktop/ros2_ws/install/Action_turtle:/home/zzq/Desktop/GYH_ws/install/learning_urdf:/home/zzq/Desktop/GYH_ws/install/learning_topic:/home/zzq/Desktop/GYH_ws/install/learning_tf:/home/zzq/Desktop/GYH_ws/install/learning_service:/home/zzq/Desktop/GYH_ws/install/learning_qos:/home/zzq/Desktop/GYH_ws/install/learning_pkg_python:/home/zzq/Desktop/GYH_ws/install/learning_parameter:/home/zzq/Desktop/GYH_ws/install/learning_node:/home/zzq/Desktop/GYH_ws/install/learning_launch:/home/zzq/Desktop/GYH_ws/install/learning_action:/home/zzq/Desktop/GYH_ws/install/learning_gazebo:/home/zzq/Desktop/GYH_ws/install/learning_cv:/opt/ros/humble /usr/bin/cmake --build /home/zzq/Desktop/ros2_ws/build/pavo_lidar -- -j32 -l32

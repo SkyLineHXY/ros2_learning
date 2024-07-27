@@ -1,0 +1,9 @@
+[0mPAVO_SDK_SRC:/home/zzq/Desktop/ros2_ws/src/pavo_lidar/./sdk/src/data_filters.cpp;/home/zzq/Desktop/ros2_ws/src/pavo_lidar/./sdk/src/pavo_driver.cpp;/home/zzq/Desktop/ros2_ws/src/pavo_lidar/./sdk/src/utils.cpp[0m
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+  ament_target_dependencies() the passed package name 'PRIVATE' was not found
+  before
+Call Stack (most recent call first):
+  CMakeLists.txt:28 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:348：cmake_check_build_system] 错误 1

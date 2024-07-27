@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/zzq/Desktop/ros2_ws/build/beginner/ament_cmake_environment_hooks/path.dsv

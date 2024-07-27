@@ -1,0 +1,20 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing Action_turtle.egg-info/PKG-INFO
+writing dependency_links to Action_turtle.egg-info/dependency_links.txt
+writing entry points to Action_turtle.egg-info/entry_points.txt
+writing requirements to Action_turtle.egg-info/requires.txt
+writing top-level names to Action_turtle.egg-info/top_level.txt
+reading manifest file 'Action_turtle.egg-info/SOURCES.txt'
+writing manifest file 'Action_turtle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/python3.10/site-packages/Action-turtle.egg-link (link to .)
+Installing Action_turtle_client script to /home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/Action_turtle
+Installing Action_turtle_server script to /home/zzq/Desktop/ros2_ws/install/Action_turtle/lib/Action_turtle
+
+Installed /home/zzq/Desktop/ros2_ws/build/Action_turtle
+running symlink_data
+symbolically linking /home/zzq/Desktop/ros2_ws/build/Action_turtle/resource/Action_turtle -> /home/zzq/Desktop/ros2_ws/install/Action_turtle/share/ament_index/resource_index/packages
+symbolically linking /home/zzq/Desktop/ros2_ws/build/Action_turtle/package.xml -> /home/zzq/Desktop/ros2_ws/install/Action_turtle/share/Action_turtle

@@ -1,0 +1,10 @@
+[01m[K/home/zzq/Desktop/ros2_ws/src/pavo_lidar/src/pavo_pcd_node.cpp:87:55:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+   87 |         void get_param(const std::string &param_name, [01;35m[Kauto[m[K &param_var)
+      |                                                       [01;35m[K^~~~[m[K
+/usr/bin/ld: CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o: in function `PC_Pub_node::PC_Pub_node()':
+pavo_pcd_node.cpp:(.text._ZN11PC_Pub_nodeC2Ev[_ZN11PC_Pub_nodeC5Ev]+0x135d): undefined reference to `pavo::pavo_driver::pavo_driver()'
+/usr/bin/ld: pavo_pcd_node.cpp:(.text._ZN11PC_Pub_nodeC2Ev[_ZN11PC_Pub_nodeC5Ev]+0x13ba): undefined reference to `pavo::pavo_driver::pavo_driver(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, unsigned short)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/pavo_pcd_pub.dir/build.make:207：pavo_pcd_pub] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/pavo_pcd_pub.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

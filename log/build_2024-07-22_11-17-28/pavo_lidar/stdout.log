@@ -1,0 +1,21 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/pavo_pcd_pub.dir/src/pavo_pcd_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX executable pavo_pcd_pub[0m
+[100%] Built target pavo_pcd_pub
+-- Install configuration: ""
+-- Installing: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/lib/pavo_lidar/pavo_pcd_pub
+-- Set runtime path of "/home/zzq/Desktop/ros2_ws/install/pavo_lidar/lib/pavo_lidar/pavo_pcd_pub" to ""
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/ament_index/resource_index/package_run_dependencies/pavo_lidar
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/ament_index/resource_index/parent_prefix_path/pavo_lidar
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/environment/ament_prefix_path.sh
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/environment/path.sh
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/environment/path.dsv
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/local_setup.bash
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/local_setup.sh
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/local_setup.zsh
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/local_setup.dsv
+-- Installing: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/package.dsv
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/ament_index/resource_index/packages/pavo_lidar
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/cmake/pavo_lidarConfig.cmake
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/cmake/pavo_lidarConfig-version.cmake
+-- Up-to-date: /home/zzq/Desktop/ros2_ws/install/pavo_lidar/share/pavo_lidar/package.xml

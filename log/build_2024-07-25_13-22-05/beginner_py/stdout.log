@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing beginner_py.egg-info/PKG-INFO
+writing dependency_links to beginner_py.egg-info/dependency_links.txt
+writing entry points to beginner_py.egg-info/entry_points.txt
+writing requirements to beginner_py.egg-info/requires.txt
+writing top-level names to beginner_py.egg-info/top_level.txt
+reading manifest file 'beginner_py.egg-info/SOURCES.txt'
+writing manifest file 'beginner_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/python3.10/site-packages/beginner-py.egg-link (link to .)
+Installing listener script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+Installing talker script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+Installing talkercv2 script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+Installing talkerpc2 script to /home/zzq/Desktop/ros2_ws/install/beginner_py/lib/beginner_py
+
+Installed /home/zzq/Desktop/ros2_ws/build/beginner_py
+running symlink_data
+symbolically linking /home/zzq/Desktop/ros2_ws/build/beginner_py/resource/beginner_py -> /home/zzq/Desktop/ros2_ws/install/beginner_py/share/ament_index/resource_index/packages
+symbolically linking /home/zzq/Desktop/ros2_ws/build/beginner_py/package.xml -> /home/zzq/Desktop/ros2_ws/install/beginner_py/share/beginner_py

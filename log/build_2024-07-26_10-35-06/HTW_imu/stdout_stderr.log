@@ -1,0 +1,37 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+Removing /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HTW-imu.egg-link (link to .)
+running egg_info
+writing ../../build/HTW_imu/HTW_imu.egg-info/PKG-INFO
+writing dependency_links to ../../build/HTW_imu/HTW_imu.egg-info/dependency_links.txt
+writing entry points to ../../build/HTW_imu/HTW_imu.egg-info/entry_points.txt
+writing requirements to ../../build/HTW_imu/HTW_imu.egg-info/requires.txt
+writing top-level names to ../../build/HTW_imu/HTW_imu.egg-info/top_level.txt
+reading manifest file '../../build/HTW_imu/HTW_imu.egg-info/SOURCES.txt'
+writing manifest file '../../build/HTW_imu/HTW_imu.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu
+copying /home/zzq/Desktop/ros2_ws/build/HTW_imu/build/lib/HWT_imu/convert.py -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu
+copying /home/zzq/Desktop/ros2_ws/build/HTW_imu/build/lib/HWT_imu/wit_imu_ctrl.py -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu
+copying /home/zzq/Desktop/ros2_ws/build/HTW_imu/build/lib/HWT_imu/wit_modbus_ros.py -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu
+copying /home/zzq/Desktop/ros2_ws/build/HTW_imu/build/lib/HWT_imu/__init__.py -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu
+copying /home/zzq/Desktop/ros2_ws/build/HTW_imu/build/lib/HWT_imu/get_imu_rpy.py -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu
+byte-compiling /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu/convert.py to convert.cpython-310.pyc
+byte-compiling /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu/wit_imu_ctrl.py to wit_imu_ctrl.cpython-310.pyc
+byte-compiling /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu/wit_modbus_ros.py to wit_modbus_ros.cpython-310.pyc
+byte-compiling /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HWT_imu/get_imu_rpy.py to get_imu_rpy.cpython-310.pyc
+running install_data
+copying resource/HTW_imu -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/share/ament_index/resource_index/packages
+copying package.xml -> /home/zzq/Desktop/ros2_ws/install/HTW_imu/share/HTW_imu
+running install_egg_info
+Copying ../../build/HTW_imu/HTW_imu.egg-info to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/python3.10/site-packages/HTW_imu-0.0.0-py3.10.egg-info
+running install_scripts
+Installing get_imu_rpy script to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/HTW_imu
+Installing wit_imu_ctrl script to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/HTW_imu
+Installing wit_modbus_ros script to /home/zzq/Desktop/ros2_ws/install/HTW_imu/lib/HTW_imu
+writing list of installed files to '/home/zzq/Desktop/ros2_ws/build/HTW_imu/install.log'
